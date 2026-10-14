@@ -1,0 +1,6 @@
+store_id,store_name,region,units_sold,revenue,profit,avg_discount,returns,profit_margin
+2,T Nagar,South,4657,5958134.8,2176914.8,6.81,43,36.54
+1,Anna Nagar,South,4383,5368743.3,1999153.3,6.75,49,37.24
+4,Andheri,West,3773,4523606.95,1679076.95,6.58,47,37.12
+3,Whitefield,South,3566,4191943.15,1574023.15,6.41,39,37.55
+5,Banjara Hills,South,1794,2319209.15,849409.15,6.6,13,36.62

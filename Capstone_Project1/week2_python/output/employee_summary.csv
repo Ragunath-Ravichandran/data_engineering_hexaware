@@ -1,0 +1,21 @@
+employee_id,employee_name,department,days_recorded,absences,late_days,avg_work_hours,avg_break_hours,avg_productivity,avg_completion_rate,absence_rate
+1,Employee 1,Engineering,19,1,4,7.8,0.83,0.63,82.84,5.26
+2,Employee 2,Sales,19,5,2,7.72,0.93,0.44,65.89,26.32
+3,Employee 3,Finance,19,1,3,7.87,0.88,0.59,84.43,5.26
+4,Employee 4,HR,20,6,6,7.69,0.88,0.71,91.28,30.0
+5,Employee 5,HR,20,0,4,7.64,0.91,0.62,73.7,0.0
+6,Employee 6,Sales,20,2,2,7.68,0.93,0.68,80.13,10.0
+7,Employee 7,Engineering,20,2,1,7.46,0.89,0.72,88.17,10.0
+8,Employee 8,Finance,20,2,4,7.78,0.73,0.61,78.47,10.0
+9,Employee 9,Engineering,20,3,4,8.05,0.73,0.44,59.56,15.0
+10,Employee 10,Engineering,20,4,3,7.79,0.84,0.65,81.2,20.0
+11,Employee 11,Finance,20,3,5,7.81,0.77,0.64,87.88,15.0
+12,Employee 12,Sales,20,0,8,7.65,0.87,0.58,69.33,0.0
+13,Employee 13,Finance,20,2,4,7.78,0.89,0.42,56.51,10.0
+14,Employee 14,Sales,20,0,4,8.04,0.8,0.64,83.0,0.0
+15,Employee 15,Finance,20,0,5,7.66,0.9,0.77,91.08,0.0
+16,Employee 16,Sales,20,0,7,7.64,0.86,0.53,68.92,0.0
+17,Employee 17,Finance,20,0,3,7.85,0.9,0.53,65.85,0.0
+18,Employee 18,Engineering,20,6,3,7.7,0.95,0.66,83.0,30.0
+19,Employee 19,Sales,20,0,5,7.83,0.83,0.66,78.99,0.0
+20,Employee 20,HR,20,3,5,7.52,0.88,0.63,74.01,15.0

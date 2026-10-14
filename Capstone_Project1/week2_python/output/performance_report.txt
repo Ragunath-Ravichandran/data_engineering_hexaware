@@ -1,0 +1,33 @@
+EMPLOYEE ATTENDANCE AND PRODUCTIVITY REPORT
+
+TOP 5 PERFORMERS
+ employee_id employee_name  department  avg_work_hours  avg_productivity  absences  late_days
+          15   Employee 15     Finance            7.66              0.77         0          5
+           7    Employee 7 Engineering            7.46              0.72         2          1
+           4    Employee 4          HR            7.69              0.71         6          6
+           6    Employee 6       Sales            7.68              0.68         2          2
+          19   Employee 19       Sales            7.83              0.66         0          5
+
+BOTTOM 5 PERFORMERS
+ employee_id employee_name  department  avg_work_hours  avg_productivity  absences  late_days
+          13   Employee 13     Finance            7.78              0.42         2          4
+           2    Employee 2       Sales            7.72              0.44         5          2
+           9    Employee 9 Engineering            8.05              0.44         3          4
+          16   Employee 16       Sales            7.64              0.53         0          7
+          17   Employee 17     Finance            7.85              0.53         0          3
+
+FREQUENT ABSENTEES
+ employee_id employee_name  department  avg_work_hours  avg_productivity  absences  late_days
+           4    Employee 4          HR            7.69              0.71         6          6
+          18   Employee 18 Engineering            7.70              0.66         6          3
+           2    Employee 2       Sales            7.72              0.44         5          2
+          10   Employee 10 Engineering            7.79              0.65         4          3
+          11   Employee 11     Finance            7.81              0.64         3          5
+
+DEPARTMENT SUMMARY
+             employees  avg_work_hours  avg_productivity  total_absences  total_late_days
+department                                                                               
+Engineering          5            7.76              0.62              16               15
+Finance              6            7.79              0.59               8               24
+HR                   3            7.62              0.65               9               15
+Sales                6            7.76              0.59               7               28

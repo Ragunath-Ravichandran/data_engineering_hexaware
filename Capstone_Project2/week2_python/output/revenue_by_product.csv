@@ -1,0 +1,11 @@
+product_id,product_name,category,units_sold,revenue,profit,avg_discount,returns,profit_margin
+4,Running Shoes,Footwear,1917,5893663.5,1867963.5,6.88,18,31.69
+2,Bluetooth Speaker,Electronics,1835,4305152.25,1369152.25,6.28,17,31.8
+9,Headphones,Electronics,1902,3547725.25,1265325.25,6.67,19,35.67
+6,Backpack,Accessories,1805,2185307.7,921807.7,6.9,27,42.18
+10,Yoga Mat,Fitness,1643,1683503.15,697703.15,6.98,18,41.44
+1,Wireless Mouse,Electronics,1898,1421141.35,567041.35,6.14,19,39.9
+7,Desk Lamp,Home,1653,1384235.25,557735.25,6.65,15,40.29
+3,Cotton T-Shirt,Apparel,2114,985225.6,520145.6,6.85,24,52.79
+5,Water Bottle,Home,1733,566060.55,306110.55,6.42,14,54.08
+8,Notebook Pack,Stationery,1673,389622.75,205592.75,6.72,20,52.77
