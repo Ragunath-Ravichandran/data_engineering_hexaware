@@ -1,0 +1,1296 @@
+
+Insert restaurants
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf73e34c38ce048a27f86a'),
+    '1': ObjectId('6acf73e34c38ce048a27f86b'),
+    '2': ObjectId('6acf73e34c38ce048a27f86c'),
+    '3': ObjectId('6acf73e34c38ce048a27f86d'),
+    '4': ObjectId('6acf73e34c38ce048a27f86e')
+  }
+}
+
+Insert orders
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf73e34c38ce048a27f86f'),
+    '1': ObjectId('6acf73e34c38ce048a27f870'),
+    '2': ObjectId('6acf73e34c38ce048a27f871'),
+    '3': ObjectId('6acf73e34c38ce048a27f872'),
+    '4': ObjectId('6acf73e34c38ce048a27f873')
+  }
+}
+
+Q1
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'green@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 3.9,
+    active: false,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  }
+]
+
+Q2
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 3.9,
+    active: false,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  }
+]
+
+Q3
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'green@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  }
+]
+
+Q4
+{
+  acknowledged: true,
+  insertedId: ObjectId('6acf73e34c38ce048a27f874')
+}
+
+Q5
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q6
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q7
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+
+Q8
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 4.1,
+    active: true,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  }
+]
+
+Q9
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  }
+]
+
+Q10
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q11
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q12
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food',
+      'Desserts'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'greenbowl@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 4.1,
+    active: true,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  }
+]
+
+Q13
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86f'),
+    order_id: 5001,
+    restaurant_id: 101,
+    customer_name: 'Adil',
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Chicken Biryani',
+        quantity: 2,
+        price: 320
+      },
+      {
+        name: 'Coke',
+        quantity: 2,
+        price: 60
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f871'),
+    order_id: 5003,
+    restaurant_id: 103,
+    customer_name: 'Kabir',
+    order_date: ISODate('2026-09-03T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Protein Bowl',
+        quantity: 2,
+        price: 400
+      },
+      {
+        name: 'Juice',
+        quantity: 1,
+        price: 150
+      }
+    ],
+    delivery: {
+      city: 'Bangalore',
+      fee: 50
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f873'),
+    order_id: 5005,
+    restaurant_id: 105,
+    customer_name: 'Rohan',
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Thai Curry',
+        quantity: 1,
+        price: 480
+      },
+      {
+        name: 'Noodles',
+        quantity: 2,
+        price: 300
+      }
+    ],
+    delivery: {
+      city: 'Delhi',
+      fee: 70
+    }
+  }
+]
+
+Q14
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f871'),
+    order_id: 5003,
+    restaurant_id: 103,
+    customer_name: 'Kabir',
+    order_date: ISODate('2026-09-03T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Protein Bowl',
+        quantity: 2,
+        price: 400
+      },
+      {
+        name: 'Juice',
+        quantity: 1,
+        price: 150
+      }
+    ],
+    delivery: {
+      city: 'Bangalore',
+      fee: 50
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f872'),
+    order_id: 5004,
+    restaurant_id: 101,
+    customer_name: 'Nisha',
+    order_date: ISODate('2026-09-04T00:00:00.000Z'),
+    status: 'Cancelled',
+    items: [
+      {
+        name: 'Veg Biryani',
+        quantity: 1,
+        price: 250
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f873'),
+    order_id: 5005,
+    restaurant_id: 105,
+    customer_name: 'Rohan',
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Thai Curry',
+        quantity: 1,
+        price: 480
+      },
+      {
+        name: 'Noodles',
+        quantity: 2,
+        price: 300
+      }
+    ],
+    delivery: {
+      city: 'Delhi',
+      fee: 70
+    }
+  }
+]
+
+Q15
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86f'),
+    order_id: 5001,
+    restaurant_id: 101,
+    customer_name: 'Adil',
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Chicken Biryani',
+        quantity: 2,
+        price: 320
+      },
+      {
+        name: 'Coke',
+        quantity: 2,
+        price: 60
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f872'),
+    order_id: 5004,
+    restaurant_id: 101,
+    customer_name: 'Nisha',
+    order_date: ISODate('2026-09-04T00:00:00.000Z'),
+    status: 'Cancelled',
+    items: [
+      {
+        name: 'Veg Biryani',
+        quantity: 1,
+        price: 250
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  }
+]
+
+Q16
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f873'),
+    order_id: 5005,
+    restaurant_id: 105,
+    customer_name: 'Rohan',
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Thai Curry',
+        quantity: 1,
+        price: 480
+      },
+      {
+        name: 'Noodles',
+        quantity: 2,
+        price: 300
+      }
+    ],
+    delivery: {
+      city: 'Delhi',
+      fee: 70
+    }
+  }
+]
+
+Q17
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86f'),
+    order_id: 5001,
+    restaurant_id: 101,
+    customer_name: 'Adil',
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Chicken Biryani',
+        quantity: 2,
+        price: 320
+      },
+      {
+        name: 'Coke',
+        quantity: 2,
+        price: 60
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f871'),
+    order_id: 5003,
+    restaurant_id: 103,
+    customer_name: 'Kabir',
+    order_date: ISODate('2026-09-03T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Protein Bowl',
+        quantity: 2,
+        price: 400
+      },
+      {
+        name: 'Juice',
+        quantity: 1,
+        price: 150
+      }
+    ],
+    delivery: {
+      city: 'Bangalore',
+      fee: 50
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f873'),
+    order_id: 5005,
+    restaurant_id: 105,
+    customer_name: 'Rohan',
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Thai Curry',
+        quantity: 1,
+        price: 480
+      },
+      {
+        name: 'Noodles',
+        quantity: 2,
+        price: 300
+      }
+    ],
+    delivery: {
+      city: 'Delhi',
+      fee: 70
+    }
+  }
+]
+
+Q18
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86f'),
+    order_id: 5001,
+    restaurant_id: 101,
+    customer_name: 'Adil',
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        name: 'Chicken Biryani',
+        quantity: 2,
+        price: 320
+      },
+      {
+        name: 'Coke',
+        quantity: 2,
+        price: 60
+      }
+    ],
+    delivery: {
+      city: 'Hyderabad',
+      fee: 40
+    }
+  }
+]
+
+Q19
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q20
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q21
+[
+  {
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    rating: 4.5
+  },
+  {
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    rating: 4.2
+  },
+  {
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    rating: 4.7
+  },
+  {
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    rating: 4.1
+  },
+  {
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    rating: 4.4
+  }
+]
+
+Q22
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'greenbowl@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food',
+      'Desserts'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 4.1,
+    active: true,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  }
+]
+
+Q23
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'greenbowl@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  }
+]
+
+Q24
+[
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86a'),
+    restaurant_id: 101,
+    restaurant_name: 'Spice Kitchen',
+    city: 'Hyderabad',
+    cuisine: [
+      'Indian',
+      'Biryani'
+    ],
+    rating: 4.5,
+    active: true,
+    contact: {
+      phone: '9876543210',
+      email: 'spice@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86b'),
+    restaurant_id: 102,
+    restaurant_name: 'Urban Pizza',
+    city: 'Mumbai',
+    cuisine: [
+      'Italian',
+      'Fast Food',
+      'Desserts'
+    ],
+    rating: 4.2,
+    active: true,
+    contact: {
+      phone: '9988776655',
+      email: 'pizza@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86c'),
+    restaurant_id: 103,
+    restaurant_name: 'Green Bowl',
+    city: 'Bangalore',
+    cuisine: [
+      'Healthy',
+      'Vegetarian'
+    ],
+    rating: 4.7,
+    active: true,
+    contact: {
+      phone: '9123456780',
+      email: 'greenbowl@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86d'),
+    restaurant_id: 104,
+    restaurant_name: 'Burger Point',
+    city: 'Hyderabad',
+    cuisine: [
+      'Fast Food',
+      'Burgers'
+    ],
+    rating: 4.1,
+    active: true,
+    contact: {
+      phone: '9000011111',
+      email: 'burger@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e34c38ce048a27f86e'),
+    restaurant_id: 105,
+    restaurant_name: 'Asian Wok',
+    city: 'Delhi',
+    cuisine: [
+      'Chinese',
+      'Thai'
+    ],
+    rating: 4.4,
+    active: true,
+    contact: {
+      phone: '9222233333',
+      email: 'wok@email.com'
+    }
+  }
+]
+
+Q25
+[
+  {
+    order_id: 5001,
+    order_date_type: 'date'
+  },
+  {
+    order_id: 5002,
+    order_date_type: 'date'
+  },
+  {
+    order_id: 5003,
+    order_date_type: 'date'
+  },
+  {
+    order_id: 5004,
+    order_date_type: 'date'
+  },
+  {
+    order_id: 5005,
+    order_date_type: 'date'
+  }
+]
+
+Q26
+[
+  {
+    order_id: 5001,
+    items_type: 'array'
+  },
+  {
+    order_id: 5002,
+    items_type: 'array'
+  },
+  {
+    order_id: 5003,
+    items_type: 'array'
+  },
+  {
+    order_id: 5004,
+    items_type: 'array'
+  },
+  {
+    order_id: 5005,
+    items_type: 'array'
+  }
+]
+
+Q27 - insert restaurant with string rating
+{
+  acknowledged: true,
+  insertedId: ObjectId('6acf73e44c38ce048a27f875')
+}
+
+Q27 - identify
+[
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f875'),
+    restaurant_id: 107,
+    restaurant_name: 'Test Cafe',
+    city: 'Pune',
+    cuisine: [
+      'Cafe',
+      'Snacks'
+    ],
+    rating: '4.6',
+    active: true,
+    contact: {
+      phone: '9555566666',
+      email: 'test@email.com'
+    }
+  }
+]
+
+Q27 - correct
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q28 - insert delivery partners
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf73e44c38ce048a27f876'),
+    '1': ObjectId('6acf73e44c38ce048a27f877'),
+    '2': ObjectId('6acf73e44c38ce048a27f878'),
+    '3': ObjectId('6acf73e44c38ce048a27f879'),
+    '4': ObjectId('6acf73e44c38ce048a27f87a')
+  }
+}
+
+Q29
+[
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f876'),
+    partner_id: 1,
+    partner_name: 'Ravi Kumar',
+    city: 'Hyderabad',
+    rating: 4.6,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Banjara Hills',
+      'Madhapur',
+      'Hitech City'
+    ],
+    contact: {
+      phone: '9700000001',
+      email: 'ravi@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f877'),
+    partner_id: 2,
+    partner_name: 'Sneha Reddy',
+    city: 'Hyderabad',
+    rating: 3.8,
+    active: true,
+    vehicle: 'Scooter',
+    skills_areas: [
+      'Kukatpally',
+      'Miyapur'
+    ],
+    contact: {
+      phone: '9700000002',
+      email: 'sneha@email.com'
+    }
+  }
+]
+
+Q30
+[
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f876'),
+    partner_id: 1,
+    partner_name: 'Ravi Kumar',
+    city: 'Hyderabad',
+    rating: 4.6,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Banjara Hills',
+      'Madhapur',
+      'Hitech City'
+    ],
+    contact: {
+      phone: '9700000001',
+      email: 'ravi@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f878'),
+    partner_id: 3,
+    partner_name: 'Imran Khan',
+    city: 'Mumbai',
+    rating: 4.3,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Andheri',
+      'Bandra'
+    ],
+    contact: {
+      phone: '9700000003',
+      email: 'imran@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f879'),
+    partner_id: 4,
+    partner_name: 'Priya Nair',
+    city: 'Bangalore',
+    rating: 4.8,
+    active: false,
+    vehicle: 'Electric Scooter',
+    skills_areas: [
+      'Indiranagar',
+      'Koramangala'
+    ],
+    contact: {
+      phone: '9700000004',
+      email: 'priya@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f87a'),
+    partner_id: 5,
+    partner_name: 'Arjun Singh',
+    city: 'Delhi',
+    rating: 4.1,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Connaught Place',
+      'Saket'
+    ],
+    contact: {
+      phone: '9700000005',
+      email: 'arjun@email.com'
+    }
+  }
+]
+
+Q31
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q32
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q33
+[
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f879'),
+    partner_id: 4,
+    partner_name: 'Priya Nair',
+    city: 'Bangalore',
+    rating: 4.8,
+    active: false,
+    vehicle: 'Electric Scooter',
+    skills_areas: [
+      'Indiranagar',
+      'Koramangala'
+    ],
+    contact: {
+      phone: '9700000004',
+      email: 'priya@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f876'),
+    partner_id: 1,
+    partner_name: 'Ravi Kumar',
+    city: 'Hyderabad',
+    rating: 4.6,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Banjara Hills',
+      'Madhapur',
+      'Hitech City',
+      'Gachibowli'
+    ],
+    contact: {
+      phone: '9700000001',
+      email: 'ravi@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f878'),
+    partner_id: 3,
+    partner_name: 'Imran Khan',
+    city: 'Mumbai',
+    rating: 4.3,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Andheri',
+      'Bandra'
+    ],
+    contact: {
+      phone: '9700000003',
+      email: 'imran@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f877'),
+    partner_id: 2,
+    partner_name: 'Sneha Reddy',
+    city: 'Hyderabad',
+    rating: 4.2,
+    active: true,
+    vehicle: 'Scooter',
+    skills_areas: [
+      'Kukatpally',
+      'Miyapur'
+    ],
+    contact: {
+      phone: '9700000002',
+      email: 'sneha@email.com'
+    }
+  },
+  {
+    _id: ObjectId('6acf73e44c38ce048a27f87a'),
+    partner_id: 5,
+    partner_name: 'Arjun Singh',
+    city: 'Delhi',
+    rating: 4.1,
+    active: true,
+    vehicle: 'Bike',
+    skills_areas: [
+      'Connaught Place',
+      'Saket'
+    ],
+    contact: {
+      phone: '9700000005',
+      email: 'arjun@email.com'
+    }
+  }
+]

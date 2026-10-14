@@ -1,0 +1,3488 @@
+
+PART 1 - insert products
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf6eb54041ce0f61563f25'),
+    '1': ObjectId('6acf6eb54041ce0f61563f26'),
+    '2': ObjectId('6acf6eb54041ce0f61563f27'),
+    '3': ObjectId('6acf6eb54041ce0f61563f28'),
+    '4': ObjectId('6acf6eb54041ce0f61563f29'),
+    '5': ObjectId('6acf6eb54041ce0f61563f2a')
+  }
+}
+
+Q1
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 1800,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 5,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 0,
+    available: false,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 18,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  }
+]
+
+Q2
+{
+  _id: ObjectId('6acf6eb54041ce0f61563f27'),
+  product_id: 103,
+  product_name: 'Office Desk',
+  category: 'Furniture',
+  brand: 'WorkSpace',
+  price: 14500,
+  stock: 8,
+  available: true,
+  launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+  colors: [
+    'Brown',
+    'Black'
+  ],
+  specifications: {
+    material: 'Wood',
+    adjustable: false,
+    warranty_years: 3
+  }
+}
+
+Q3
+{
+  acknowledged: true,
+  insertedId: ObjectId('6acf6eb54041ce0f61563f2b')
+}
+
+Q4
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf6eb54041ce0f61563f2c'),
+    '1': ObjectId('6acf6eb54041ce0f61563f2d')
+  }
+}
+
+Q5
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q6
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q7
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q8
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q9
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q10
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q11 - before delete
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2c'),
+    product_id: 108,
+    product_name: 'USB Hub',
+    category: 'Accessories',
+    brand: 'PortMax',
+    price: 1200,
+    stock: 30,
+    available: true
+  }
+]
+
+Q11 - deleteOne
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+
+Q11 - after delete
+[]
+
+Q12 - before delete
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2d'),
+    product_id: 109,
+    product_name: 'Webcam HD',
+    category: 'Electronics',
+    brand: 'ViewCam',
+    price: 3500,
+    stock: 0,
+    available: false
+  }
+]
+
+Q12 - deleteMany
+{
+  acknowledged: true,
+  deletedCount: 1
+}
+
+Q12 - after delete
+[]
+
+Q13 - verification (all products now)
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q14
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q15
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  }
+]
+
+Q16
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q17
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  }
+]
+
+Q18
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q19
+[]
+
+Q20
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q21
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q22
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  }
+]
+
+Q23
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q24
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  }
+]
+
+Q25
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  }
+]
+
+Q26
+[
+  {
+    product_name: 'Ultra Laptop',
+    price: 72000
+  },
+  {
+    product_name: 'Wireless Mouse',
+    price: 2000
+  },
+  {
+    product_name: 'Office Desk',
+    price: 14500
+  },
+  {
+    product_name: 'Smart Monitor',
+    price: 26000
+  },
+  {
+    product_name: 'Gaming Chair',
+    price: 18500
+  },
+  {
+    product_name: 'Mechanical Keyboard',
+    price: 5200
+  },
+  {
+    product_name: 'Bluetooth Speaker',
+    price: 7500
+  }
+]
+
+Q27
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    stock: 12
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    stock: 40
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    stock: 8
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    stock: 15
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    stock: 15
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    stock: 15
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    stock: 20
+  }
+]
+
+Q28
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  }
+]
+
+Q29
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  }
+]
+
+Q30
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  }
+]
+
+Q31
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  }
+]
+
+Q32
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  }
+]
+
+Q33
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  }
+]
+
+Q34
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  }
+]
+
+Q35
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue',
+      'Red'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  }
+]
+
+Q36
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q37
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 0,
+  upsertedCount: 0
+}
+
+Q38
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q39
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver',
+      'Grey'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  }
+]
+
+Q40
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver',
+      'Grey'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2
+    }
+  }
+]
+
+Q41
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  }
+]
+
+Q42
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  }
+]
+
+Q43
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q44
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 2,
+  modifiedCount: 2,
+  upsertedCount: 0
+}
+
+Q45
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver',
+      'Grey'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2,
+      country_of_origin: 'India'
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2,
+      country_of_origin: 'India'
+    }
+  }
+]
+
+Q46
+[
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f25'),
+    product_id: 101,
+    product_name: 'Ultra Laptop',
+    category: 'Electronics',
+    brand: 'TechPro',
+    price: 72000,
+    stock: 12,
+    available: true,
+    launch_date: ISODate('2026-01-15T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Silver',
+      'Grey'
+    ],
+    specifications: {
+      ram: '16 GB',
+      storage: '1 TB SSD',
+      warranty_years: 2,
+      country_of_origin: 'India'
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f26'),
+    product_id: 102,
+    product_name: 'Wireless Mouse',
+    category: 'Accessories',
+    brand: 'ClickMax',
+    price: 2000,
+    stock: 40,
+    available: true,
+    launch_date: ISODate('2026-02-10T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Blue'
+    ],
+    specifications: {
+      wireless: true,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f27'),
+    product_id: 103,
+    product_name: 'Office Desk',
+    category: 'Furniture',
+    brand: 'WorkSpace',
+    price: 14500,
+    stock: 8,
+    available: true,
+    launch_date: ISODate('2025-11-20T00:00:00.000Z'),
+    colors: [
+      'Brown',
+      'Black'
+    ],
+    specifications: {
+      material: 'Wood',
+      adjustable: false,
+      warranty_years: 5
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f28'),
+    product_id: 104,
+    product_name: 'Smart Monitor',
+    category: 'Electronics',
+    brand: 'VisionPlus',
+    price: 26000,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-03-01T00:00:00.000Z'),
+    colors: [
+      'Black'
+    ],
+    specifications: {
+      screen_size: '27 inch',
+      resolution: '4K',
+      warranty_years: 2,
+      country_of_origin: 'India'
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f29'),
+    product_id: 105,
+    product_name: 'Gaming Chair',
+    category: 'Furniture',
+    brand: 'SeatPro',
+    price: 18500,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-01-05T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'Red'
+    ],
+    specifications: {
+      material: 'Leather',
+      adjustable: true,
+      warranty_years: 3
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2a'),
+    product_id: 106,
+    product_name: 'Mechanical Keyboard',
+    category: 'Accessories',
+    brand: 'KeyWorks',
+    price: 5200,
+    stock: 15,
+    available: true,
+    launch_date: ISODate('2026-04-12T00:00:00.000Z'),
+    colors: [
+      'Black',
+      'White'
+    ],
+    specifications: {
+      backlit: true,
+      wireless: false,
+      warranty_years: 1
+    }
+  },
+  {
+    _id: ObjectId('6acf6eb54041ce0f61563f2b'),
+    product_id: 107,
+    product_name: 'Bluetooth Speaker',
+    category: 'Electronics',
+    brand: 'SoundMax',
+    price: 7500,
+    stock: 20,
+    available: true
+  }
+]
+
+Q47
+[
+  {
+    product_id: 101,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 102,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 103,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 104,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 105,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 106,
+    launch_date_type: 'date'
+  },
+  {
+    product_id: 107,
+    launch_date_type: 'missing'
+  }
+]
+
+Q48
+[
+  {
+    product_id: 101,
+    colors_type: 'array'
+  },
+  {
+    product_id: 102,
+    colors_type: 'array'
+  },
+  {
+    product_id: 103,
+    colors_type: 'array'
+  },
+  {
+    product_id: 104,
+    colors_type: 'array'
+  },
+  {
+    product_id: 105,
+    colors_type: 'array'
+  },
+  {
+    product_id: 106,
+    colors_type: 'array'
+  },
+  {
+    product_id: 107,
+    colors_type: 'missing'
+  }
+]
+
+Q49
+[
+  {
+    product_id: 101,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 102,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 103,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 104,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 105,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 106,
+    specifications_type: 'object'
+  },
+  {
+    product_id: 107,
+    specifications_type: 'missing'
+  }
+]
+
+Q50
+{
+  acknowledged: true,
+  insertedId: ObjectId('6acf6eb64041ce0f61563f2e')
+}
+
+Q51
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f2e'),
+    product_id: 110,
+    product_name: 'Portable SSD',
+    category: 'Electronics',
+    brand: 'DataFast',
+    price: '25000',
+    stock: 14,
+    available: true
+  }
+]
+
+Q52
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+PART 8 - insert customers
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf6eb64041ce0f61563f2f'),
+    '1': ObjectId('6acf6eb64041ce0f61563f30'),
+    '2': ObjectId('6acf6eb64041ce0f61563f31'),
+    '3': ObjectId('6acf6eb64041ce0f61563f32')
+  }
+}
+
+Q53
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f2f'),
+    customer_id: 501,
+    customer_name: 'Aditya Rao',
+    email: 'aditya@email.com',
+    active: true,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500081'
+    },
+    interests: [
+      'Electronics',
+      'Accessories'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f30'),
+    customer_id: 502,
+    customer_name: 'Maya Thomas',
+    email: 'maya@email.com',
+    active: true,
+    address: {
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      pincode: '600028'
+    },
+    interests: [
+      'Furniture',
+      'Home'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f31'),
+    customer_id: 503,
+    customer_name: 'Faisal Ahmed',
+    email: 'faisal@email.com',
+    active: false,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500034'
+    },
+    interests: [
+      'Electronics'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f32'),
+    customer_id: 504,
+    customer_name: 'Nikita Shah',
+    email: 'nikita@email.com',
+    active: true,
+    address: {
+      city: 'Mumbai',
+      state: 'Maharashtra',
+      pincode: '400050'
+    },
+    interests: [
+      'Furniture',
+      'Electronics'
+    ]
+  }
+]
+
+Q54
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f2f'),
+    customer_id: 501,
+    customer_name: 'Aditya Rao',
+    email: 'aditya@email.com',
+    active: true,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500081'
+    },
+    interests: [
+      'Electronics',
+      'Accessories'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f30'),
+    customer_id: 502,
+    customer_name: 'Maya Thomas',
+    email: 'maya@email.com',
+    active: true,
+    address: {
+      city: 'Chennai',
+      state: 'Tamil Nadu',
+      pincode: '600028'
+    },
+    interests: [
+      'Furniture',
+      'Home'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f32'),
+    customer_id: 504,
+    customer_name: 'Nikita Shah',
+    email: 'nikita@email.com',
+    active: true,
+    address: {
+      city: 'Mumbai',
+      state: 'Maharashtra',
+      pincode: '400050'
+    },
+    interests: [
+      'Furniture',
+      'Electronics'
+    ]
+  }
+]
+
+Q55
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f2f'),
+    customer_id: 501,
+    customer_name: 'Aditya Rao',
+    email: 'aditya@email.com',
+    active: true,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500081'
+    },
+    interests: [
+      'Electronics',
+      'Accessories'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f31'),
+    customer_id: 503,
+    customer_name: 'Faisal Ahmed',
+    email: 'faisal@email.com',
+    active: false,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500034'
+    },
+    interests: [
+      'Electronics'
+    ]
+  }
+]
+
+Q56
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f2f'),
+    customer_id: 501,
+    customer_name: 'Aditya Rao',
+    email: 'aditya@email.com',
+    active: true,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500081'
+    },
+    interests: [
+      'Electronics',
+      'Accessories'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f31'),
+    customer_id: 503,
+    customer_name: 'Faisal Ahmed',
+    email: 'faisal@email.com',
+    active: false,
+    address: {
+      city: 'Hyderabad',
+      state: 'Telangana',
+      pincode: '500034'
+    },
+    interests: [
+      'Electronics'
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f32'),
+    customer_id: 504,
+    customer_name: 'Nikita Shah',
+    email: 'nikita@email.com',
+    active: true,
+    address: {
+      city: 'Mumbai',
+      state: 'Maharashtra',
+      pincode: '400050'
+    },
+    interests: [
+      'Furniture',
+      'Electronics'
+    ]
+  }
+]
+
+Q57
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f32'),
+    customer_id: 504,
+    customer_name: 'Nikita Shah',
+    email: 'nikita@email.com',
+    active: true,
+    address: {
+      city: 'Mumbai',
+      state: 'Maharashtra',
+      pincode: '400050'
+    },
+    interests: [
+      'Furniture',
+      'Electronics'
+    ]
+  }
+]
+
+Q58
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q59
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q60
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+PART 9 - insert orders
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf6eb64041ce0f61563f33'),
+    '1': ObjectId('6acf6eb64041ce0f61563f34'),
+    '2': ObjectId('6acf6eb64041ce0f61563f35')
+  }
+}
+
+Q61
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f33'),
+    order_id: 9001,
+    customer_id: 501,
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Ultra Laptop',
+        quantity: 1,
+        price: 72000
+      },
+      {
+        product: 'Wireless Mouse',
+        quantity: 2,
+        price: 2000
+      }
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f35'),
+    order_id: 9003,
+    customer_id: 503,
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Smart Monitor',
+        quantity: 2,
+        price: 26000
+      },
+      {
+        product: 'Mechanical Keyboard',
+        quantity: 1,
+        price: 5200
+      }
+    ]
+  }
+]
+
+Q62
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f33'),
+    order_id: 9001,
+    customer_id: 501,
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Ultra Laptop',
+        quantity: 1,
+        price: 72000
+      },
+      {
+        product: 'Wireless Mouse',
+        quantity: 2,
+        price: 2000
+      }
+    ]
+  }
+]
+
+Q63
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f33'),
+    order_id: 9001,
+    customer_id: 501,
+    order_date: ISODate('2026-09-01T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Ultra Laptop',
+        quantity: 1,
+        price: 72000
+      },
+      {
+        product: 'Wireless Mouse',
+        quantity: 2,
+        price: 2000
+      }
+    ]
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f35'),
+    order_id: 9003,
+    customer_id: 503,
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Smart Monitor',
+        quantity: 2,
+        price: 26000
+      },
+      {
+        product: 'Mechanical Keyboard',
+        quantity: 1,
+        price: 5200
+      }
+    ]
+  }
+]
+
+Q64
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f35'),
+    order_id: 9003,
+    customer_id: 503,
+    order_date: ISODate('2026-09-05T00:00:00.000Z'),
+    status: 'Delivered',
+    items: [
+      {
+        product: 'Smart Monitor',
+        quantity: 2,
+        price: 26000
+      },
+      {
+        product: 'Mechanical Keyboard',
+        quantity: 1,
+        price: 5200
+      }
+    ]
+  }
+]
+
+Q65
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q66
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q67
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+PART 10 - DOCUMENT DESIGN (ANSWERS)
+Q68: Array
+     A small list of simple values.
+Q69: Embedded Document
+     One-to-one data, always read together with the customer.
+Q70: Array of Embedded Documents
+     Each line item has its own fields (product, quantity, price).
+Q71: Embedded Document
+     A fixed group of related attributes of one product.
+Q72: Separate Collection / Reference
+     Orders grow without limit, so they should not live inside the customer.
+Q73: Separate Collection / Reference
+     Millions of reviews would bloat the product document.
+Q74: Simple Field
+     first_name and last_name are plain values.
+Q75: Array
+     A list of simple strings.
+
+SUPPLIERS - insert suppliers
+{
+  acknowledged: true,
+  insertedIds: {
+    '0': ObjectId('6acf6eb64041ce0f61563f36'),
+    '1': ObjectId('6acf6eb64041ce0f61563f37'),
+    '2': ObjectId('6acf6eb64041ce0f61563f38'),
+    '3': ObjectId('6acf6eb64041ce0f61563f39'),
+    '4': ObjectId('6acf6eb64041ce0f61563f3a')
+  }
+}
+
+Q76
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f36'),
+    supplier_id: 1,
+    supplier_name: 'TechSource India',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Electronics',
+      'Accessories'
+    ],
+    contact: {
+      phone: '9876500001',
+      email: 'sales@techsource.com'
+    },
+    warehouses: [
+      'Hyderabad-HiTec',
+      'Bangalore-Whitefield'
+    ],
+    registration_date: ISODate('2025-06-10T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f37'),
+    supplier_id: 2,
+    supplier_name: 'HomeNest Furnishings',
+    city: 'Chennai',
+    active: true,
+    categories: [
+      'Furniture',
+      'Home'
+    ],
+    contact: {
+      phone: '9876500002',
+      email: 'contact@homenest.com'
+    },
+    warehouses: [
+      'Chennai-Guindy',
+      'Coimbatore-Peelamedu'
+    ],
+    registration_date: ISODate('2026-02-18T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f39'),
+    supplier_id: 4,
+    supplier_name: 'OfficeWorks',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Furniture',
+      'Stationery'
+    ],
+    contact: {
+      phone: '9876500004',
+      email: 'hello@officeworks.com'
+    },
+    warehouses: [
+      'Hyderabad-Uppal',
+      'Vizag-Gajuwaka'
+    ],
+    registration_date: ISODate('2025-12-01T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f3a'),
+    supplier_id: 5,
+    supplier_name: 'KeyPoint Peripherals',
+    city: 'Delhi',
+    active: true,
+    categories: [
+      'Accessories',
+      'Electronics'
+    ],
+    contact: {
+      phone: '9876500005',
+      email: 'support@keypoint.com'
+    },
+    warehouses: [
+      'Delhi-Okhla',
+      'Noida-Sector62'
+    ],
+    registration_date: ISODate('2026-05-20T00:00:00.000Z')
+  }
+]
+
+Q77
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f36'),
+    supplier_id: 1,
+    supplier_name: 'TechSource India',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Electronics',
+      'Accessories'
+    ],
+    contact: {
+      phone: '9876500001',
+      email: 'sales@techsource.com'
+    },
+    warehouses: [
+      'Hyderabad-HiTec',
+      'Bangalore-Whitefield'
+    ],
+    registration_date: ISODate('2025-06-10T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f39'),
+    supplier_id: 4,
+    supplier_name: 'OfficeWorks',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Furniture',
+      'Stationery'
+    ],
+    contact: {
+      phone: '9876500004',
+      email: 'hello@officeworks.com'
+    },
+    warehouses: [
+      'Hyderabad-Uppal',
+      'Vizag-Gajuwaka'
+    ],
+    registration_date: ISODate('2025-12-01T00:00:00.000Z')
+  }
+]
+
+Q78
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f36'),
+    supplier_id: 1,
+    supplier_name: 'TechSource India',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Electronics',
+      'Accessories'
+    ],
+    contact: {
+      phone: '9876500001',
+      email: 'sales@techsource.com'
+    },
+    warehouses: [
+      'Hyderabad-HiTec',
+      'Bangalore-Whitefield'
+    ],
+    registration_date: ISODate('2025-06-10T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f38'),
+    supplier_id: 3,
+    supplier_name: 'Gadget Hub',
+    city: 'Mumbai',
+    active: false,
+    categories: [
+      'Electronics',
+      'Gadgets'
+    ],
+    contact: {
+      phone: '9876500003',
+      email: 'info@gadgethub.com'
+    },
+    warehouses: [
+      'Mumbai-Andheri',
+      'Pune-Hinjewadi'
+    ],
+    registration_date: ISODate('2026-03-05T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f3a'),
+    supplier_id: 5,
+    supplier_name: 'KeyPoint Peripherals',
+    city: 'Delhi',
+    active: true,
+    categories: [
+      'Accessories',
+      'Electronics'
+    ],
+    contact: {
+      phone: '9876500005',
+      email: 'support@keypoint.com'
+    },
+    warehouses: [
+      'Delhi-Okhla',
+      'Noida-Sector62'
+    ],
+    registration_date: ISODate('2026-05-20T00:00:00.000Z')
+  }
+]
+
+Q79
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f37'),
+    supplier_id: 2,
+    supplier_name: 'HomeNest Furnishings',
+    city: 'Chennai',
+    active: true,
+    categories: [
+      'Furniture',
+      'Home'
+    ],
+    contact: {
+      phone: '9876500002',
+      email: 'contact@homenest.com'
+    },
+    warehouses: [
+      'Chennai-Guindy',
+      'Coimbatore-Peelamedu'
+    ],
+    registration_date: ISODate('2026-02-18T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f38'),
+    supplier_id: 3,
+    supplier_name: 'Gadget Hub',
+    city: 'Mumbai',
+    active: false,
+    categories: [
+      'Electronics',
+      'Gadgets'
+    ],
+    contact: {
+      phone: '9876500003',
+      email: 'info@gadgethub.com'
+    },
+    warehouses: [
+      'Mumbai-Andheri',
+      'Pune-Hinjewadi'
+    ],
+    registration_date: ISODate('2026-03-05T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f3a'),
+    supplier_id: 5,
+    supplier_name: 'KeyPoint Peripherals',
+    city: 'Delhi',
+    active: true,
+    categories: [
+      'Accessories',
+      'Electronics'
+    ],
+    contact: {
+      phone: '9876500005',
+      email: 'support@keypoint.com'
+    },
+    warehouses: [
+      'Delhi-Okhla',
+      'Noida-Sector62'
+    ],
+    registration_date: ISODate('2026-05-20T00:00:00.000Z')
+  }
+]
+
+Q80
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q81
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q82
+{
+  acknowledged: true,
+  insertedId: null,
+  matchedCount: 1,
+  modifiedCount: 1,
+  upsertedCount: 0
+}
+
+Q83
+[
+  {
+    supplier_name: 'TechSource India',
+    city: 'Hyderabad'
+  },
+  {
+    supplier_name: 'HomeNest Furnishings',
+    city: 'Chennai'
+  },
+  {
+    supplier_name: 'Gadget Hub',
+    city: 'Mumbai'
+  },
+  {
+    supplier_name: 'OfficeWorks',
+    city: 'Hyderabad'
+  },
+  {
+    supplier_name: 'KeyPoint Peripherals',
+    city: 'Delhi'
+  }
+]
+
+Q84
+[
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f36'),
+    supplier_id: 1,
+    supplier_name: 'TechSource India',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Electronics',
+      'Accessories'
+    ],
+    contact: {
+      phone: '9876500001',
+      email: 'sales@techsource.com'
+    },
+    warehouses: [
+      'Hyderabad-HiTec',
+      'Bangalore-Whitefield',
+      'Chennai-Ambattur'
+    ],
+    registration_date: ISODate('2025-06-10T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f39'),
+    supplier_id: 4,
+    supplier_name: 'OfficeWorks',
+    city: 'Hyderabad',
+    active: true,
+    categories: [
+      'Furniture'
+    ],
+    contact: {
+      phone: '9876500004',
+      email: 'hello@officeworks.com'
+    },
+    warehouses: [
+      'Hyderabad-Uppal',
+      'Vizag-Gajuwaka'
+    ],
+    registration_date: ISODate('2025-12-01T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f37'),
+    supplier_id: 2,
+    supplier_name: 'HomeNest Furnishings',
+    city: 'Chennai',
+    active: true,
+    categories: [
+      'Furniture',
+      'Home'
+    ],
+    contact: {
+      phone: '9876500002',
+      email: 'contact@homenest.com'
+    },
+    warehouses: [
+      'Chennai-Guindy',
+      'Coimbatore-Peelamedu'
+    ],
+    registration_date: ISODate('2026-02-18T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f38'),
+    supplier_id: 3,
+    supplier_name: 'Gadget Hub',
+    city: 'Mumbai',
+    active: true,
+    categories: [
+      'Electronics',
+      'Gadgets'
+    ],
+    contact: {
+      phone: '9876500003',
+      email: 'info@gadgethub.com'
+    },
+    warehouses: [
+      'Mumbai-Andheri',
+      'Pune-Hinjewadi'
+    ],
+    registration_date: ISODate('2026-03-05T00:00:00.000Z')
+  },
+  {
+    _id: ObjectId('6acf6eb64041ce0f61563f3a'),
+    supplier_id: 5,
+    supplier_name: 'KeyPoint Peripherals',
+    city: 'Delhi',
+    active: true,
+    categories: [
+      'Accessories',
+      'Electronics'
+    ],
+    contact: {
+      phone: '9876500005',
+      email: 'support@keypoint.com'
+    },
+    warehouses: [
+      'Delhi-Okhla',
+      'Noida-Sector62'
+    ],
+    registration_date: ISODate('2026-05-20T00:00:00.000Z')
+  }
+]
+
+Q85
+Array for categories:
+  A supplier supplies several categories, each a simple string,
+  and { categories: "Electronics" } queries them easily.
+
+Embedded document for contact:
+  Phone and email form one fixed group that belongs to exactly
+  one supplier and is always read together with it.
+
+Array for warehouse locations:
+  A supplier has a small, bounded list of warehouses, and
+  $push / $pull make adding or removing one simple.
