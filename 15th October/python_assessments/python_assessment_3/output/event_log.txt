@@ -1,0 +1,5 @@
+Event registration started
+Registrations validated
+Tickets generated
+Confirmation emails sent
+Event report created

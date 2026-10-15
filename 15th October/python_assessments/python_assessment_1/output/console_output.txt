@@ -1,0 +1,574 @@
+Console Output - python_assessment_1
+====================================
+
+Q1
+--
+Enter product name: Office Chair
+Enter unit price: 9500
+Enter quantity: 6
+
+Q2
+--
+Total amount: 57000.0
+
+Q3
+--
+Discount: 5700.0
+
+Q4
+--
+Product: Office Chair
+Original amount: 57000.0
+Discount: 5700.0
+Final amount: 51300.0
+
+Q5
+--
+Enter stock quantity: 25
+High Stock
+
+Q6
+--
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+Q7
+--
+5
+4
+3
+2
+1
+0
+
+Q8
+--
+1
+2
+3
+4
+6
+7
+8
+9
+10
+
+Q9
+--
+1
+2
+3
+4
+5
+6
+7
+
+Q10
+---
+Total sales: 216500
+
+Q11
+---
+Highest sale: 72000
+Lowest sale: 4500
+
+Q12
+---
+65000
+36000
+72000
+
+Q13
+---
+[72000, 65000, 36000, 18000, 12000, 9000, 4500]
+
+Q14
+---
+{'Pune', 'Hyderabad', 'Delhi', 'Mumbai'}
+
+Q15
+---
+201 Laptop Electronics 65000
+
+Q16
+---
+{'id': 'C101', 'name': 'North Star Retail', 'city': 'Hyderabad', 'orders': 3, 'active': True}
+
+Q17
+---
+{'id': 'C101', 'name': 'North Star Retail', 'city': 'Chennai', 'orders': 3, 'active': True}
+
+Q18
+---
+{'id': 'C101', 'name': 'North Star Retail', 'city': 'Chennai', 'orders': 4, 'active': True}
+
+Q19
+---
+{'id': 'C101', 'name': 'North Star Retail', 'city': 'Chennai', 'orders': 4, 'active': True, 'email': 'northstar@email.com'}
+
+Q20
+---
+id : C101
+name : North Star Retail
+city : Chennai
+orders : 4
+active : True
+email : northstar@email.com
+
+Q21
+---
+4500
+
+Q22
+---
+6500.0
+
+Q23
+---
+216500
+
+Q24
+---
+Laptop Available
+Monitor Available
+Office Chair Available
+Keyboard Available
+
+Q25
+---
+36
+
+Q26
+---
+[65000, 36000, 72000]
+
+Q27
+---
+['Hyderabad', 'Mumbai', 'Bangalore', 'Hyderabad', 'Delhi', 'Pune', 'Mumbai']
+
+Q28
+---
+{'Bangalore', 'Delhi', 'Hyderabad', 'Mumbai', 'Pune'}
+
+Q29
+---
+[{'product_id': 204, 'product_name': 'Keyboard', 'category': 'Accessories', 'price': 3000, 'stock': 30, 'supplier': {'name': 'Tech Source', 'city': 'Hyderabad'}, 'colors': ['Black', 'White']}, {'product_id': 203, 'product_name': 'Office Chair', 'category': 'Furniture', 'price': 9000, 'stock': 15, 'supplier': {'name': 'Comfort Works', 'city': 'Pune'}, 'colors': ['Black', 'Grey']}, {'product_id': 202, 'product_name': 'Monitor', 'category': 'Electronics', 'price': 18000, 'stock': 8, 'supplier': {'name': 'Vision Traders', 'city': 'Mumbai'}, 'colors': ['Black']}, {'product_id': 201, 'product_name': 'Laptop', 'category': 'Electronics', 'price': 65000, 'stock': 12, 'supplier': {'name': 'Tech Source', 'city': 'Hyderabad'}, 'colors': ['Black', 'Silver']}]
+
+Q30
+---
+201 Laptop 65000 12
+204 Keyboard 3000 30
+
+Q31
+---
+ID: 201, Name: Laptop, Price: 65000, Stock: 12
+ID: 204, Name: Keyboard, Price: 3000, Stock: 30
+
+Q32
+---
+780000
+90000
+
+Q33
+---
+Objects created: Laptop and Keyboard
+
+Q34
+---
+DiscountedProduct inherits from Product: True
+
+Q35
+---
+Discount percent: 10
+
+Q36
+---
+203 Office Chair 9000 15
+
+Q37
+---
+ID: 203, Name: Office Chair, Price: 9000, Stock: 15
+Discount: 10%
+
+Q38
+---
+Premium Product -> Monitor costs 18000
+
+Q39
+---
+ID: 201, Name: Laptop, Price: 65000, Stock: 12
+ID: 203, Name: Office Chair, Price: 9000, Stock: 15
+Discount: 10%
+Premium Product -> Monitor costs 18000
+
+Q40
+---
+activity.txt created
+
+Q41
+---
+3 processing messages written to activity.txt
+
+Q42
+---
+1 more message appended to activity.txt
+
+Q43
+---
+Order processing started
+Orders validated
+Orders packed
+Orders shipped
+
+
+Q44
+---
+Columns read: ['customer_id', 'customer_name', 'city', 'segment', 'active']
+
+Q45
+---
+[{'customer_id': 'C101', 'customer_name': 'North Star Retail', 'city': 'Hyderabad', 'segment': 'Corporate', 'active': 'True'}, {'customer_id': 'C102', 'customer_name': 'Blue Mart', 'city': 'Mumbai', 'segment': 'Retail', 'active': 'True'}, {'customer_id': 'C103', 'customer_name': 'Daily Basket', 'city': 'Bangalore', 'segment': 'Retail', 'active': 'False'}, {'customer_id': 'C104', 'customer_name': 'Prime Stores', 'city': 'Hyderabad', 'segment': 'SMB', 'active': 'True'}, {'customer_id': 'C105', 'customer_name': 'Fresh Point', 'city': 'Delhi', 'segment': 'Corporate', 'active': 'True'}, {'customer_id': 'C106', 'customer_name': 'Quick Buy', 'city': 'Pune', 'segment': 'Retail', 'active': 'True'}, {'customer_id': 'C107', 'customer_name': 'Central Bazaar', 'city': 'Mumbai', 'segment': 'SMB', 'active': 'False'}]
+
+Q46
+---
+{'customer_id': 'C101', 'customer_name': 'North Star Retail', 'city': 'Hyderabad', 'segment': 'Corporate', 'active': 'True'}
+{'customer_id': 'C102', 'customer_name': 'Blue Mart', 'city': 'Mumbai', 'segment': 'Retail', 'active': 'True'}
+{'customer_id': 'C104', 'customer_name': 'Prime Stores', 'city': 'Hyderabad', 'segment': 'SMB', 'active': 'True'}
+{'customer_id': 'C105', 'customer_name': 'Fresh Point', 'city': 'Delhi', 'segment': 'Corporate', 'active': 'True'}
+{'customer_id': 'C106', 'customer_name': 'Quick Buy', 'city': 'Pune', 'segment': 'Retail', 'active': 'True'}
+
+Q47
+---
+{'customer_id': 'C101', 'customer_name': 'North Star Retail', 'city': 'Hyderabad', 'segment': 'Corporate', 'active': 'True'}
+{'customer_id': 'C104', 'customer_name': 'Prime Stores', 'city': 'Hyderabad', 'segment': 'SMB', 'active': 'True'}
+
+Q48
+---
+products.json read, products loaded: 4
+
+Q49
+---
+Laptop
+Monitor
+Office Chair
+Keyboard
+
+Q50
+---
+Laptop 65000
+Monitor 18000
+
+Q51
+---
+Tech Source Hyderabad
+Vision Traders Mumbai
+Comfort Works Pune
+Tech Source Hyderabad
+
+Q52
+---
+['Black', 'Silver', 'Black', 'Black', 'Grey', 'Black', 'White']
+
+Q53
+---
+{'Grey', 'Silver', 'Black', 'White'}
+
+Q54
+---
+[{'product_id': 201, 'product_name': 'Laptop', 'category': 'Electronics', 'price': 65000, 'stock': 12, 'supplier': {'name': 'Tech Source', 'city': 'Hyderabad'}, 'colors': ['Black', 'Silver']}, {'product_id': 202, 'product_name': 'Monitor', 'category': 'Electronics', 'price': 18000, 'stock': 18, 'supplier': {'name': 'Vision Traders', 'city': 'Mumbai'}, 'colors': ['Black']}, {'product_id': 203, 'product_name': 'Office Chair', 'category': 'Furniture', 'price': 9000, 'stock': 15, 'supplier': {'name': 'Comfort Works', 'city': 'Pune'}, 'colors': ['Black', 'Grey']}, {'product_id': 204, 'product_name': 'Keyboard', 'category': 'Accessories', 'price': 3000, 'stock': 30, 'supplier': {'name': 'Tech Source', 'city': 'Hyderabad'}, 'colors': ['Black', 'White']}]
+
+Q55
+---
+products_updated.json saved
+
+Q56
+---
+retail_utils.py has: calculate_order_total, calculate_discount, check_stock
+
+Q57
+---
+Module imported: retail_utils
+
+Q58
+---
+65000
+6500.0
+Low Stock
+
+Q59
+---
+Low Stock
+
+Q60
+---
+6500.0
+
+Q61
+---
+orders.csv loaded into DataFrame, rows: 14
+
+Q62
+---
+   order_id customer_id  order_date       product     category  quantity  unit_price     status
+0      1001        C101  2026-01-05        Laptop  Electronics         1       65000  Delivered
+1      1002        C102  2026-01-12         Mouse  Accessories         3        1500  Delivered
+2      1003        C103  2026-01-18       Monitor  Electronics         2       18000  Cancelled
+3      1004        C101  2026-02-02      Keyboard  Accessories         4        3000  Delivered
+4      1005        C104  2026-02-08  Office Chair    Furniture         2        9000    Pending
+
+Q63
+---
+Index(['order_id', 'customer_id', 'order_date', 'product', 'category', 'quantity', 'unit_price', 'status'], dtype='str')
+order_id       int64
+customer_id      str
+order_date       str
+product          str
+category         str
+quantity       int64
+unit_price     int64
+status           str
+dtype: object
+
+Q64
+---
+(14, 8)
+
+Q65
+---
+    order_id customer_id  order_date   product     category  quantity  unit_price     status
+0       1001        C101  2026-01-05    Laptop  Electronics         1       65000  Delivered
+1       1002        C102  2026-01-12     Mouse  Accessories         3        1500  Delivered
+3       1004        C101  2026-02-02  Keyboard  Accessories         4        3000  Delivered
+5       1006        C105  2026-02-14    Laptop  Electronics         1       72000  Delivered
+7       1008        C103  2026-03-07   Monitor  Electronics         1       19000  Delivered
+8       1009        C104  2026-03-15      Desk    Furniture         2       14000  Delivered
+9       1010        C101  2026-03-21    Tablet  Electronics         2       28000  Delivered
+10      1011        C105  2026-04-04  Keyboard  Accessories         5        3200  Delivered
+12      1013        C102  2026-04-17    Tablet  Electronics         1       30000  Delivered
+
+Q66
+---
+    order_id customer_id  order_date   product     category  quantity  unit_price     status
+1       1002        C102  2026-01-12     Mouse  Accessories         3        1500  Delivered
+3       1004        C101  2026-02-02  Keyboard  Accessories         4        3000  Delivered
+10      1011        C105  2026-04-04  Keyboard  Accessories         5        3200  Delivered
+13      1014        C104  2026-05-01     Mouse  Accessories         5        1600  Cancelled
+
+Q67
+---
+    order_id customer_id  order_date       product     category  quantity  unit_price     status  order_value
+0       1001        C101  2026-01-05        Laptop  Electronics         1       65000  Delivered        65000
+1       1002        C102  2026-01-12         Mouse  Accessories         3        1500  Delivered         4500
+2       1003        C103  2026-01-18       Monitor  Electronics         2       18000  Cancelled        36000
+3       1004        C101  2026-02-02      Keyboard  Accessories         4        3000  Delivered        12000
+4       1005        C104  2026-02-08  Office Chair    Furniture         2        9000    Pending        18000
+5       1006        C105  2026-02-14        Laptop  Electronics         1       72000  Delivered        72000
+6       1007        C102  2026-03-03    Headphones  Accessories         2        4500    Pending         9000
+7       1008        C103  2026-03-07       Monitor  Electronics         1       19000  Delivered        19000
+8       1009        C104  2026-03-15          Desk    Furniture         2       14000  Delivered        28000
+9       1010        C101  2026-03-21        Tablet  Electronics         2       28000  Delivered        56000
+10      1011        C105  2026-04-04      Keyboard  Accessories         5        3200  Delivered        16000
+11      1012        C106  2026-04-11  Office Chair    Furniture         1        9500    Pending         9500
+12      1013        C102  2026-04-17        Tablet  Electronics         1       30000  Delivered        30000
+13      1014        C104  2026-05-01         Mouse  Accessories         5        1600  Cancelled         8000
+
+Q68
+---
+status
+Delivered    9
+Pending      3
+Cancelled    2
+Name: count, dtype: int64
+
+Q69
+---
+datetime64[us]
+
+Q70
+---
+  order_date  month
+0 2026-01-05      1
+1 2026-01-12      1
+2 2026-01-18      1
+3 2026-02-02      2
+4 2026-02-08      2
+
+Q71
+---
+month  status   
+1      Cancelled    1
+       Delivered    2
+2      Delivered    2
+       Pending      1
+3      Delivered    3
+       Pending      1
+4      Delivered    2
+       Pending      1
+5      Cancelled    1
+dtype: int64
+
+Q72
+---
+category
+Accessories     49500
+Electronics    278000
+Furniture       55500
+Name: order_value, dtype: int64
+
+Q73
+---
+category
+Accessories     9900.000000
+Electronics    46333.333333
+Furniture      18500.000000
+Name: order_value, dtype: float64
+
+Q74
+---
+    order_id customer_id order_date       product     category  quantity  unit_price     status  order_value  month
+5       1006        C105 2026-02-14        Laptop  Electronics         1       72000  Delivered        72000      2
+0       1001        C101 2026-01-05        Laptop  Electronics         1       65000  Delivered        65000      1
+9       1010        C101 2026-03-21        Tablet  Electronics         2       28000  Delivered        56000      3
+2       1003        C103 2026-01-18       Monitor  Electronics         2       18000  Cancelled        36000      1
+12      1013        C102 2026-04-17        Tablet  Electronics         1       30000  Delivered        30000      4
+8       1009        C104 2026-03-15          Desk    Furniture         2       14000  Delivered        28000      3
+7       1008        C103 2026-03-07       Monitor  Electronics         1       19000  Delivered        19000      3
+4       1005        C104 2026-02-08  Office Chair    Furniture         2        9000    Pending        18000      2
+10      1011        C105 2026-04-04      Keyboard  Accessories         5        3200  Delivered        16000      4
+3       1004        C101 2026-02-02      Keyboard  Accessories         4        3000  Delivered        12000      2
+11      1012        C106 2026-04-11  Office Chair    Furniture         1        9500    Pending         9500      4
+6       1007        C102 2026-03-03    Headphones  Accessories         2        4500    Pending         9000      3
+13      1014        C104 2026-05-01         Mouse  Accessories         5        1600  Cancelled         8000      5
+1       1002        C102 2026-01-12         Mouse  Accessories         3        1500  Delivered         4500      1
+
+Q75
+---
+    order_id customer_id  order_date       product     category  quantity  unit_price     status  order_value      customer_name       city    segment  active
+0       1001        C101  2026-01-05        Laptop  Electronics         1       65000  Delivered        65000  North Star Retail  Hyderabad  Corporate    True
+1       1002        C102  2026-01-12         Mouse  Accessories         3        1500  Delivered         4500          Blue Mart     Mumbai     Retail    True
+2       1003        C103  2026-01-18       Monitor  Electronics         2       18000  Cancelled        36000       Daily Basket  Bangalore     Retail   False
+3       1004        C101  2026-02-02      Keyboard  Accessories         4        3000  Delivered        12000  North Star Retail  Hyderabad  Corporate    True
+4       1005        C104  2026-02-08  Office Chair    Furniture         2        9000    Pending        18000       Prime Stores  Hyderabad        SMB    True
+5       1006        C105  2026-02-14        Laptop  Electronics         1       72000  Delivered        72000        Fresh Point      Delhi  Corporate    True
+6       1007        C102  2026-03-03    Headphones  Accessories         2        4500    Pending         9000          Blue Mart     Mumbai     Retail    True
+7       1008        C103  2026-03-07       Monitor  Electronics         1       19000  Delivered        19000       Daily Basket  Bangalore     Retail   False
+8       1009        C104  2026-03-15          Desk    Furniture         2       14000  Delivered        28000       Prime Stores  Hyderabad        SMB    True
+9       1010        C101  2026-03-21        Tablet  Electronics         2       28000  Delivered        56000  North Star Retail  Hyderabad  Corporate    True
+10      1011        C105  2026-04-04      Keyboard  Accessories         5        3200  Delivered        16000        Fresh Point      Delhi  Corporate    True
+11      1012        C106  2026-04-11  Office Chair    Furniture         1        9500    Pending         9500          Quick Buy       Pune     Retail    True
+12      1013        C102  2026-04-17        Tablet  Electronics         1       30000  Delivered        30000          Blue Mart     Mumbai     Retail    True
+13      1014        C104  2026-05-01         Mouse  Accessories         5        1600  Cancelled         8000       Prime Stores  Hyderabad        SMB    True
+
+Q76
+---
+    order_id      customer_name       city       product     status  order_value
+0       1001  North Star Retail  Hyderabad        Laptop  Delivered        65000
+1       1002          Blue Mart     Mumbai         Mouse  Delivered         4500
+2       1003       Daily Basket  Bangalore       Monitor  Cancelled        36000
+3       1004  North Star Retail  Hyderabad      Keyboard  Delivered        12000
+4       1005       Prime Stores  Hyderabad  Office Chair    Pending        18000
+5       1006        Fresh Point      Delhi        Laptop  Delivered        72000
+6       1007          Blue Mart     Mumbai    Headphones    Pending         9000
+7       1008       Daily Basket  Bangalore       Monitor  Delivered        19000
+8       1009       Prime Stores  Hyderabad          Desk  Delivered        28000
+9       1010  North Star Retail  Hyderabad        Tablet  Delivered        56000
+10      1011        Fresh Point      Delhi      Keyboard  Delivered        16000
+11      1012          Quick Buy       Pune  Office Chair    Pending         9500
+12      1013          Blue Mart     Mumbai        Tablet  Delivered        30000
+13      1014       Prime Stores  Hyderabad         Mouse  Cancelled         8000
+
+Q77
+---
+   order_id customer_id  order_date   product     category  quantity  unit_price     status  order_value      customer_name       city    segment  active
+0      1001        C101  2026-01-05    Laptop  Electronics         1       65000  Delivered        65000  North Star Retail  Hyderabad  Corporate    True
+3      1004        C101  2026-02-02  Keyboard  Accessories         4        3000  Delivered        12000  North Star Retail  Hyderabad  Corporate    True
+8      1009        C104  2026-03-15      Desk    Furniture         2       14000  Delivered        28000       Prime Stores  Hyderabad        SMB    True
+9      1010        C101  2026-03-21    Tablet  Electronics         2       28000  Delivered        56000  North Star Retail  Hyderabad  Corporate    True
+
+Q78
+---
+        city  total_orders  total_sales  average_order_value
+0  Bangalore             2        55000         27500.000000
+1      Delhi             2        88000         44000.000000
+2  Hyderabad             6       187000         31166.666667
+3     Mumbai             3        43500         14500.000000
+4       Pune             1         9500          9500.000000
+
+Q79
+---
+        city  total_orders  total_sales  average_order_value
+2  Hyderabad             6       187000         31166.666667
+1      Delhi             2        88000         44000.000000
+0  Bangalore             2        55000         27500.000000
+3     Mumbai             3        43500         14500.000000
+4       Pune             1         9500          9500.000000
+
+Q80
+---
+city_sales_summary.csv saved
+
+Q81
+---
+city_sales_summary.json saved
+
+Q82
+---
+    order_id  order_value order_size
+0       1001        65000       High
+1       1002         4500        Low
+2       1003        36000     Medium
+3       1004        12000        Low
+4       1005        18000     Medium
+5       1006        72000       High
+6       1007         9000        Low
+7       1008        19000     Medium
+8       1009        28000     Medium
+9       1010        56000       High
+10      1011        16000     Medium
+11      1012         9500        Low
+12      1013        30000     Medium
+13      1014         8000        Low
+
+Q83
+---
+    order_id    segment priority_customer
+0       1001  Corporate          Priority
+1       1002     Retail            Normal
+2       1003     Retail            Normal
+3       1004  Corporate          Priority
+4       1005        SMB            Normal
+5       1006  Corporate          Priority
+6       1007     Retail            Normal
+7       1008     Retail            Normal
+8       1009        SMB            Normal
+9       1010  Corporate          Priority
+10      1011  Corporate          Priority
+11      1012     Retail            Normal
+12      1013     Retail            Normal
+13      1014        SMB            Normal
+
+Q84
+---
+    order_id customer_id  order_date       product     category  quantity  unit_price     status  order_value      customer_name       city    segment  active order_size priority_customer
+0       1001        C101  2026-01-05        Laptop  Electronics         1       65000  Delivered        65000  North Star Retail  Hyderabad  Corporate    True       High          Priority
+1       1002        C102  2026-01-12         Mouse  Accessories         3        1500  Delivered         4500          Blue Mart     Mumbai     Retail    True        Low            Normal
+2       1003        C103  2026-01-18       Monitor  Electronics         2       18000  Cancelled        36000       Daily Basket  Bangalore     Retail   False     Medium            Normal
+3       1004        C101  2026-02-02      Keyboard  Accessories         4        3000  Delivered        12000  North Star Retail  Hyderabad  Corporate    True        Low          Priority
+4       1005        C104  2026-02-08  Office Chair    Furniture         2        9000    Pending        18000       Prime Stores  Hyderabad        SMB    True     Medium            Normal
+5       1006        C105  2026-02-14        Laptop  Electronics         1       72000  Delivered        72000        Fresh Point      Delhi  Corporate    True       High          Priority
+6       1007        C102  2026-03-03    Headphones  Accessories         2        4500    Pending         9000          Blue Mart     Mumbai     Retail    True        Low            Normal
+7       1008        C103  2026-03-07       Monitor  Electronics         1       19000  Delivered        19000       Daily Basket  Bangalore     Retail   False     Medium            Normal
+8       1009        C104  2026-03-15          Desk    Furniture         2       14000  Delivered        28000       Prime Stores  Hyderabad        SMB    True     Medium            Normal
+9       1010        C101  2026-03-21        Tablet  Electronics         2       28000  Delivered        56000  North Star Retail  Hyderabad  Corporate    True       High          Priority
+10      1011        C105  2026-04-04      Keyboard  Accessories         5        3200  Delivered        16000        Fresh Point      Delhi  Corporate    True     Medium          Priority
+11      1012        C106  2026-04-11  Office Chair    Furniture         1        9500    Pending         9500          Quick Buy       Pune     Retail    True        Low            Normal
+12      1013        C102  2026-04-17        Tablet  Electronics         1       30000  Delivered        30000          Blue Mart     Mumbai     Retail    True     Medium            Normal
+13      1014        C104  2026-05-01         Mouse  Accessories         5        1600  Cancelled         8000       Prime Stores  Hyderabad        SMB    True        Low            Normal

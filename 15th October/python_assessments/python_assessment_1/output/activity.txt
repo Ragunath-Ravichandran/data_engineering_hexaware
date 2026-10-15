@@ -1,0 +1,4 @@
+Order processing started
+Orders validated
+Orders packed
+Orders shipped

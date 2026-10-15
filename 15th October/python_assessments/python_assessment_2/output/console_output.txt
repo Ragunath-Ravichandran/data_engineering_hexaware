@@ -1,0 +1,445 @@
+Console Output - python_assessment_2
+====================================
+
+Q1
+--
+Enter shipment weight: 18.5
+Enter shipment cost: 1250
+
+Q2
+--
+Cost per kg: 67.57
+
+Q3
+--
+Medium
+
+Q4
+--
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Q5
+--
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+Q6
+--
+Processing attempt 1
+Processing attempt 2
+Processing attempt 3
+Processing attempt 4
+Processing attempt 5
+
+Q7
+--
+Shipment costs: [850, 620, 1250, 480, 1600, 740, 590, 1100, 920, 1750, 520, 1050]
+
+Q8
+--
+Total: 11470
+Average: 955.8333333333334
+Minimum: 480
+Maximum: 1750
+
+Q9
+--
+{'Hyderabad', 'Pune', 'Delhi', 'Mumbai', 'Bangalore'}
+
+Q10
+---
+{'shipment_id': 'S1001', 'hub_id': 'H01', 'shipment_date': '2026-06-01', 'destination': 'Hyderabad', 'weight': 12.5, 'status': 'Delivered', 'cost': 850}
+
+Q11
+---
+Number of shipments stored: 12
+{'shipment_id': 'S1001', 'hub_id': 'H01', 'shipment_date': '2026-06-01', 'destination': 'Hyderabad', 'weight': 12.5, 'status': 'Delivered', 'cost': 850}
+{'shipment_id': 'S1002', 'hub_id': 'H02', 'shipment_date': '2026-06-03', 'destination': 'Mumbai', 'weight': 8.0, 'status': 'In Transit', 'cost': 620}
+{'shipment_id': 'S1003', 'hub_id': 'H01', 'shipment_date': '2026-06-06', 'destination': 'Bangalore', 'weight': 18.5, 'status': 'Delivered', 'cost': 1250}
+{'shipment_id': 'S1004', 'hub_id': 'H03', 'shipment_date': '2026-06-10', 'destination': 'Delhi', 'weight': 5.5, 'status': 'Pending', 'cost': 480}
+{'shipment_id': 'S1005', 'hub_id': 'H02', 'shipment_date': '2026-07-02', 'destination': 'Pune', 'weight': 22.0, 'status': 'Delivered', 'cost': 1600}
+{'shipment_id': 'S1006', 'hub_id': 'H03', 'shipment_date': '2026-07-06', 'destination': 'Hyderabad', 'weight': 10.0, 'status': 'In Transit', 'cost': 740}
+{'shipment_id': 'S1007', 'hub_id': 'H01', 'shipment_date': '2026-07-12', 'destination': 'Mumbai', 'weight': 7.2, 'status': 'Delivered', 'cost': 590}
+{'shipment_id': 'S1008', 'hub_id': 'H02', 'shipment_date': '2026-08-01', 'destination': 'Delhi', 'weight': 15.5, 'status': 'Pending', 'cost': 1100}
+{'shipment_id': 'S1009', 'hub_id': 'H03', 'shipment_date': '2026-08-08', 'destination': 'Bangalore', 'weight': 11.8, 'status': 'Delivered', 'cost': 920}
+{'shipment_id': 'S1010', 'hub_id': 'H01', 'shipment_date': '2026-08-14', 'destination': 'Pune', 'weight': 25.0, 'status': 'Delivered', 'cost': 1750}
+{'shipment_id': 'S1011', 'hub_id': 'H02', 'shipment_date': '2026-09-02', 'destination': 'Hyderabad', 'weight': 6.5, 'status': 'In Transit', 'cost': 520}
+{'shipment_id': 'S1012', 'hub_id': 'H03', 'shipment_date': '2026-09-09', 'destination': 'Mumbai', 'weight': 14.0, 'status': 'Delivered', 'cost': 1050}
+
+Q12
+---
+{'shipment_id': 'S1001', 'hub_id': 'H01', 'shipment_date': '2026-06-01', 'destination': 'Hyderabad', 'weight': 12.5, 'status': 'Delivered', 'cost': 850}
+{'shipment_id': 'S1003', 'hub_id': 'H01', 'shipment_date': '2026-06-06', 'destination': 'Bangalore', 'weight': 18.5, 'status': 'Delivered', 'cost': 1250}
+{'shipment_id': 'S1005', 'hub_id': 'H02', 'shipment_date': '2026-07-02', 'destination': 'Pune', 'weight': 22.0, 'status': 'Delivered', 'cost': 1600}
+{'shipment_id': 'S1007', 'hub_id': 'H01', 'shipment_date': '2026-07-12', 'destination': 'Mumbai', 'weight': 7.2, 'status': 'Delivered', 'cost': 590}
+{'shipment_id': 'S1009', 'hub_id': 'H03', 'shipment_date': '2026-08-08', 'destination': 'Bangalore', 'weight': 11.8, 'status': 'Delivered', 'cost': 920}
+{'shipment_id': 'S1010', 'hub_id': 'H01', 'shipment_date': '2026-08-14', 'destination': 'Pune', 'weight': 25.0, 'status': 'Delivered', 'cost': 1750}
+{'shipment_id': 'S1012', 'hub_id': 'H03', 'shipment_date': '2026-09-09', 'destination': 'Mumbai', 'weight': 14.0, 'status': 'Delivered', 'cost': 1050}
+
+Q13
+---
+850.0
+
+Q14
+---
+S1001 Medium
+S1002 Light
+S1003 Medium
+S1004 Light
+S1005 Heavy
+S1006 Medium
+S1007 Light
+S1008 Medium
+S1009 Medium
+S1010 Heavy
+S1011 Light
+S1012 Medium
+
+Q15
+---
+[{'shipment_id': 'S1001', 'hub_id': 'H01', 'shipment_date': '2026-06-01', 'destination': 'Hyderabad', 'weight': 12.5, 'status': 'Delivered', 'cost': 850}, {'shipment_id': 'S1003', 'hub_id': 'H01', 'shipment_date': '2026-06-06', 'destination': 'Bangalore', 'weight': 18.5, 'status': 'Delivered', 'cost': 1250}, {'shipment_id': 'S1005', 'hub_id': 'H02', 'shipment_date': '2026-07-02', 'destination': 'Pune', 'weight': 22.0, 'status': 'Delivered', 'cost': 1600}, {'shipment_id': 'S1007', 'hub_id': 'H01', 'shipment_date': '2026-07-12', 'destination': 'Mumbai', 'weight': 7.2, 'status': 'Delivered', 'cost': 590}, {'shipment_id': 'S1009', 'hub_id': 'H03', 'shipment_date': '2026-08-08', 'destination': 'Bangalore', 'weight': 11.8, 'status': 'Delivered', 'cost': 920}, {'shipment_id': 'S1010', 'hub_id': 'H01', 'shipment_date': '2026-08-14', 'destination': 'Pune', 'weight': 25.0, 'status': 'Delivered', 'cost': 1750}, {'shipment_id': 'S1012', 'hub_id': 'H03', 'shipment_date': '2026-09-09', 'destination': 'Mumbai', 'weight': 14.0, 'status': 'Delivered', 'cost': 1050}]
+
+Q16
+---
+['Hyderabad', 'Mumbai', 'Bangalore', 'Delhi', 'Pune', 'Hyderabad', 'Mumbai', 'Delhi', 'Bangalore', 'Pune', 'Hyderabad', 'Mumbai']
+
+Q17
+---
+[{'shipment_id': 'S1004', 'hub_id': 'H03', 'shipment_date': '2026-06-10', 'destination': 'Delhi', 'weight': 5.5, 'status': 'Pending', 'cost': 480}, {'shipment_id': 'S1011', 'hub_id': 'H02', 'shipment_date': '2026-09-02', 'destination': 'Hyderabad', 'weight': 6.5, 'status': 'In Transit', 'cost': 520}, {'shipment_id': 'S1007', 'hub_id': 'H01', 'shipment_date': '2026-07-12', 'destination': 'Mumbai', 'weight': 7.2, 'status': 'Delivered', 'cost': 590}, {'shipment_id': 'S1002', 'hub_id': 'H02', 'shipment_date': '2026-06-03', 'destination': 'Mumbai', 'weight': 8.0, 'status': 'In Transit', 'cost': 620}, {'shipment_id': 'S1006', 'hub_id': 'H03', 'shipment_date': '2026-07-06', 'destination': 'Hyderabad', 'weight': 10.0, 'status': 'In Transit', 'cost': 740}, {'shipment_id': 'S1001', 'hub_id': 'H01', 'shipment_date': '2026-06-01', 'destination': 'Hyderabad', 'weight': 12.5, 'status': 'Delivered', 'cost': 850}, {'shipment_id': 'S1009', 'hub_id': 'H03', 'shipment_date': '2026-08-08', 'destination': 'Bangalore', 'weight': 11.8, 'status': 'Delivered', 'cost': 920}, {'shipment_id': 'S1012', 'hub_id': 'H03', 'shipment_date': '2026-09-09', 'destination': 'Mumbai', 'weight': 14.0, 'status': 'Delivered', 'cost': 1050}, {'shipment_id': 'S1008', 'hub_id': 'H02', 'shipment_date': '2026-08-01', 'destination': 'Delhi', 'weight': 15.5, 'status': 'Pending', 'cost': 1100}, {'shipment_id': 'S1003', 'hub_id': 'H01', 'shipment_date': '2026-06-06', 'destination': 'Bangalore', 'weight': 18.5, 'status': 'Delivered', 'cost': 1250}, {'shipment_id': 'S1005', 'hub_id': 'H02', 'shipment_date': '2026-07-02', 'destination': 'Pune', 'weight': 22.0, 'status': 'Delivered', 'cost': 1600}, {'shipment_id': 'S1010', 'hub_id': 'H01', 'shipment_date': '2026-08-14', 'destination': 'Pune', 'weight': 25.0, 'status': 'Delivered', 'cost': 1750}]
+
+Q18
+---
+Class created: Shipment
+
+Q19
+---
+S1001 Hyderabad 12.5 850
+
+Q20
+---
+Shipment S1001 to Hyderabad, weight 12.5, cost 850
+
+Q21
+---
+ExpressShipment inherits from Shipment: True
+
+Q22
+---
+Normal cost: 850
+Express cost with surcharge: 920
+
+Q23
+---
+Shipment S1001 to Hyderabad, weight 12.5, cost 850
+850
+Express Shipment S1002 to Mumbai, total cost 920
+920
+
+Q24
+---
+employees.json read, employees loaded: 4
+
+Q25
+---
+Irfan
+Tanvi
+Yusuf
+Lavanya
+
+Q26
+---
+Tanvi 82000
+Lavanya 95000
+
+Q27
+---
+Irfan
+Tanvi
+Lavanya
+
+Q28
+---
+Irfan 4.3
+Tanvi 4.7
+Yusuf 4.1
+Lavanya 4.8
+
+Q29
+---
+Tanvi 4.7
+Lavanya 4.8
+
+Q30
+---
+Lavanya 4.8
+Tanvi 4.7
+Irfan 4.3
+Yusuf 4.1
+
+Q31
+---
+[{'employee_id': 301, 'name': 'Irfan', 'department': 'Operations', 'salary': 68000, 'skills': ['Python', 'SQL'], 'performance': {'rating': 4.3, 'tasks_completed': 42}}, {'employee_id': 302, 'name': 'Tanvi', 'department': 'Analytics', 'salary': 82000, 'skills': ['Python', 'Pandas', 'Power BI'], 'performance': {'rating': 4.7, 'tasks_completed': 55}}, {'employee_id': 303, 'name': 'Yusuf', 'department': 'Operations', 'salary': 72000, 'skills': ['SQL', 'Airflow', 'Python'], 'performance': {'rating': 4.1, 'tasks_completed': 38}}, {'employee_id': 304, 'name': 'Lavanya', 'department': 'Engineering', 'salary': 95000, 'skills': ['Python', 'Spark', 'SQL'], 'performance': {'rating': 4.8, 'tasks_completed': 61}}]
+
+Q32
+---
+employees_updated.json saved
+
+Q33
+---
+shipment_utils.py has: calculate_shipping_cost, get_shipment_category, calculate_cost_per_kg
+
+Q34
+---
+850.0
+Medium
+68.0
+
+Q35
+---
+S1001 Medium
+S1002 Light
+S1003 Medium
+S1004 Light
+S1005 Heavy
+S1006 Medium
+S1007 Light
+S1008 Medium
+S1009 Medium
+S1010 Heavy
+S1011 Light
+S1012 Medium
+
+Q36
+---
+   shipment_id hub_id shipment_date destination  weight      status  cost
+0        S1001    H01    2026-06-01   Hyderabad    12.5   Delivered   850
+1        S1002    H02    2026-06-03      Mumbai     8.0  In Transit   620
+2        S1003    H01    2026-06-06   Bangalore    18.5   Delivered  1250
+3        S1004    H03    2026-06-10       Delhi     5.5     Pending   480
+4        S1005    H02    2026-07-02        Pune    22.0   Delivered  1600
+5        S1006    H03    2026-07-06   Hyderabad    10.0  In Transit   740
+6        S1007    H01    2026-07-12      Mumbai     7.2   Delivered   590
+7        S1008    H02    2026-08-01       Delhi    15.5     Pending  1100
+8        S1009    H03    2026-08-08   Bangalore    11.8   Delivered   920
+9        S1010    H01    2026-08-14        Pune    25.0   Delivered  1750
+10       S1011    H02    2026-09-02   Hyderabad     6.5  In Transit   520
+11       S1012    H03    2026-09-09      Mumbai    14.0   Delivered  1050
+
+Q37
+---
+   shipment_id hub_id shipment_date destination  weight     status  cost
+0        S1001    H01    2026-06-01   Hyderabad    12.5  Delivered   850
+2        S1003    H01    2026-06-06   Bangalore    18.5  Delivered  1250
+4        S1005    H02    2026-07-02        Pune    22.0  Delivered  1600
+6        S1007    H01    2026-07-12      Mumbai     7.2  Delivered   590
+8        S1009    H03    2026-08-08   Bangalore    11.8  Delivered   920
+9        S1010    H01    2026-08-14        Pune    25.0  Delivered  1750
+11       S1012    H03    2026-09-09      Mumbai    14.0  Delivered  1050
+
+Q38
+---
+status
+Delivered     7
+In Transit    3
+Pending       2
+Name: count, dtype: int64
+
+Q39
+---
+datetime64[us]
+
+Q40
+---
+month  status    
+6      Delivered     2
+       In Transit    1
+       Pending       1
+7      Delivered     2
+       In Transit    1
+8      Delivered     2
+       Pending       1
+9      Delivered     1
+       In Transit    1
+dtype: int64
+
+Q41
+---
+destination
+Bangalore    1085.000000
+Delhi         790.000000
+Hyderabad     703.333333
+Mumbai        753.333333
+Pune         1675.000000
+Name: cost, dtype: float64
+
+Q42
+---
+destination
+Bangalore    30.3
+Delhi        21.0
+Hyderabad    29.0
+Mumbai       29.2
+Pune         47.0
+Name: weight, dtype: float64
+
+Q43
+---
+   shipment_id hub_id destination  cost
+0        S1001    H01   Hyderabad   850
+1        S1002    H02      Mumbai   620
+2        S1003    H01   Bangalore  1250
+3        S1004    H03       Delhi   480
+4        S1005    H02        Pune  1600
+5        S1006    H03   Hyderabad   740
+6        S1007    H01      Mumbai   590
+7        S1008    H02       Delhi  1100
+8        S1009    H03   Bangalore   920
+9        S1010    H01        Pune  1750
+10       S1011    H02   Hyderabad   520
+11       S1012    H03      Mumbai  1050
+
+Q44
+---
+  hub_id                  hub_name       city manager
+0    H01       South Logistics Hub  Hyderabad  Naveen
+1    H02  Western Distribution Hub     Mumbai   Leena
+2    H03       Central Freight Hub     Nagpur   Kabir
+3    H04      Eastern Delivery Hub    Kolkata   Sonia
+
+Q45
+---
+   shipment_id hub_id shipment_date destination  weight      status  cost  month                  hub_name       city manager
+0        S1001    H01    2026-06-01   Hyderabad    12.5   Delivered   850      6       South Logistics Hub  Hyderabad  Naveen
+1        S1002    H02    2026-06-03      Mumbai     8.0  In Transit   620      6  Western Distribution Hub     Mumbai   Leena
+2        S1003    H01    2026-06-06   Bangalore    18.5   Delivered  1250      6       South Logistics Hub  Hyderabad  Naveen
+3        S1004    H03    2026-06-10       Delhi     5.5     Pending   480      6       Central Freight Hub     Nagpur   Kabir
+4        S1005    H02    2026-07-02        Pune    22.0   Delivered  1600      7  Western Distribution Hub     Mumbai   Leena
+5        S1006    H03    2026-07-06   Hyderabad    10.0  In Transit   740      7       Central Freight Hub     Nagpur   Kabir
+6        S1007    H01    2026-07-12      Mumbai     7.2   Delivered   590      7       South Logistics Hub  Hyderabad  Naveen
+7        S1008    H02    2026-08-01       Delhi    15.5     Pending  1100      8  Western Distribution Hub     Mumbai   Leena
+8        S1009    H03    2026-08-08   Bangalore    11.8   Delivered   920      8       Central Freight Hub     Nagpur   Kabir
+9        S1010    H01    2026-08-14        Pune    25.0   Delivered  1750      8       South Logistics Hub  Hyderabad  Naveen
+10       S1011    H02    2026-09-02   Hyderabad     6.5  In Transit   520      9  Western Distribution Hub     Mumbai   Leena
+11       S1012    H03    2026-09-09      Mumbai    14.0   Delivered  1050      9       Central Freight Hub     Nagpur   Kabir
+
+Q46
+---
+hub_name
+Central Freight Hub         3190
+South Logistics Hub         4440
+Western Distribution Hub    3840
+Name: cost, dtype: int64
+
+Q47
+---
+hub_name
+Central Freight Hub         4
+South Logistics Hub         4
+Western Distribution Hub    4
+Name: shipment_id, dtype: int64
+
+Q48
+---
+                   hub_name  total_cost  total_shipments
+1       South Logistics Hub        4440                4
+2  Western Distribution Hub        3840                4
+0       Central Freight Hub        3190                4
+
+Q49
+---
+hub_summary.csv saved
+
+Q50
+---
+hub_summary.json saved
+
+Q51
+---
+   shipment_id  cost  weight  cost_per_kg
+0        S1001   850    12.5        68.00
+1        S1002   620     8.0        77.50
+2        S1003  1250    18.5        67.57
+3        S1004   480     5.5        87.27
+4        S1005  1600    22.0        72.73
+5        S1006   740    10.0        74.00
+6        S1007   590     7.2        81.94
+7        S1008  1100    15.5        70.97
+8        S1009   920    11.8        77.97
+9        S1010  1750    25.0        70.00
+10       S1011   520     6.5        80.00
+11       S1012  1050    14.0        75.00
+
+Q52
+---
+   shipment_id  cost  cost_type
+0        S1001   850     Normal
+1        S1002   620     Normal
+2        S1003  1250  Expensive
+3        S1004   480     Normal
+4        S1005  1600  Expensive
+5        S1006   740     Normal
+6        S1007   590     Normal
+7        S1008  1100     Normal
+8        S1009   920     Normal
+9        S1010  1750  Expensive
+10       S1011   520     Normal
+11       S1012  1050     Normal
+
+Q53
+---
+   shipment_id      status  cost  performance_category
+0        S1001   Delivered   850    Standard Delivered
+1        S1002  In Transit   620            On The Way
+2        S1003   Delivered  1250  High Value Delivered
+3        S1004     Pending   480       Needs Attention
+4        S1005   Delivered  1600  High Value Delivered
+5        S1006  In Transit   740            On The Way
+6        S1007   Delivered   590    Standard Delivered
+7        S1008     Pending  1100       Needs Attention
+8        S1009   Delivered   920    Standard Delivered
+9        S1010   Delivered  1750  High Value Delivered
+10       S1011  In Transit   520            On The Way
+11       S1012   Delivered  1050    Standard Delivered
+
+Q54
+---
+   shipment_id hub_id shipment_date destination  weight      status  cost  month  cost_per_kg  cost_type  performance_category
+0        S1001    H01    2026-06-01   Hyderabad    12.5   Delivered   850      6        68.00     Normal    Standard Delivered
+1        S1002    H02    2026-06-03      Mumbai     8.0  In Transit   620      6        77.50     Normal            On The Way
+2        S1003    H01    2026-06-06   Bangalore    18.5   Delivered  1250      6        67.57  Expensive  High Value Delivered
+3        S1004    H03    2026-06-10       Delhi     5.5     Pending   480      6        87.27     Normal       Needs Attention
+4        S1005    H02    2026-07-02        Pune    22.0   Delivered  1600      7        72.73  Expensive  High Value Delivered
+5        S1006    H03    2026-07-06   Hyderabad    10.0  In Transit   740      7        74.00     Normal            On The Way
+6        S1007    H01    2026-07-12      Mumbai     7.2   Delivered   590      7        81.94     Normal    Standard Delivered
+7        S1008    H02    2026-08-01       Delhi    15.5     Pending  1100      8        70.97     Normal       Needs Attention
+8        S1009    H03    2026-08-08   Bangalore    11.8   Delivered   920      8        77.97     Normal    Standard Delivered
+9        S1010    H01    2026-08-14        Pune    25.0   Delivered  1750      8        70.00  Expensive  High Value Delivered
+10       S1011    H02    2026-09-02   Hyderabad     6.5  In Transit   520      9        80.00     Normal            On The Way
+11       S1012    H03    2026-09-09      Mumbai    14.0   Delivered  1050      9        75.00     Normal    Standard Delivered

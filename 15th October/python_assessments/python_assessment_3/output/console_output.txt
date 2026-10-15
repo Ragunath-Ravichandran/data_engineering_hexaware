@@ -1,0 +1,544 @@
+Console Output - python_assessment_3
+====================================
+
+Q1
+--
+Enter attendee name: Rahul Verma
+Enter number of tickets: 4
+Enter ticket price: 3500
+
+Q2
+--
+Total amount: 14000.0
+
+Q3
+--
+Discount: 1400.0
+
+Q4
+--
+Attendee: Rahul Verma
+Tickets: 4
+Total amount: 14000.0
+Discount: 1400.0
+Final amount: 12600.0
+
+Q5
+--
+Enter event capacity: 300
+Enter registered participants: 300
+
+Q6
+--
+Full
+
+Q7
+--
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+
+Q8
+--
+3
+6
+9
+12
+15
+
+Q9
+--
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Q10
+---
+1
+2
+3
+5
+6
+7
+
+Q11
+---
+Total: 46000
+
+Q12
+---
+Average: 5750.0
+
+Q13
+---
+Highest: 10000
+Lowest: 3000
+
+Q14
+---
+7500
+6000
+7000
+10000
+
+Q15
+---
+[10000, 7500, 7000, 6000, 5000, 4000, 3500, 3000]
+
+Q16
+---
+{'Mumbai', 'Hyderabad', 'Pune', 'Delhi'}
+
+Q17
+---
+{'Pune', 'Delhi', 'Mumbai', 'Hyderabad', 'Chennai'}
+
+Q18
+---
+5
+
+Q19
+---
+('E101', 'AI Innovation Summit', 'Hyderabad', 500)
+
+Q20
+---
+E101 AI Innovation Summit Hyderabad 500
+
+Q21
+---
+{'registration_id': 'R1001', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 2, 'status': 'Confirmed', 'amount': 5000}
+
+Q22
+---
+{'registration_id': 'R1001', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 2, 'status': 'Pending', 'amount': 5000}
+
+Q23
+---
+{'registration_id': 'R1001', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 3, 'status': 'Pending', 'amount': 5000}
+
+Q24
+---
+{'registration_id': 'R1001', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 3, 'status': 'Pending', 'amount': 5000, 'email': 'aarav@email.com'}
+
+Q25
+---
+registration_id : R1001
+attendee_name : Aarav Shah
+city : Hyderabad
+tickets : 3
+status : Pending
+amount : 5000
+email : aarav@email.com
+
+Q26
+---
+5000.0
+
+Q27
+---
+5000 250.0
+3500 175.0
+7500 375.0
+6000 300.0
+4000 200.0
+7000 350.0
+3000 150.0
+10000 1000.0
+
+Q28
+---
+R1001 Confirmed True
+R1002 Confirmed True
+R1003 Pending True
+R1004 Confirmed True
+R1005 Cancelled False
+R1006 Confirmed True
+R1007 Pending True
+R1008 Confirmed True
+R1009 Confirmed True
+R1010 Confirmed True
+R1011 Cancelled False
+R1012 Confirmed True
+
+Q29
+---
+46000
+
+Q30
+---
+5000 5500.0
+3500 3850.0000000000005
+7500 8250.0
+6000 6600.000000000001
+4000 4400.0
+7000 7700.000000000001
+3000 3300.0000000000005
+10000 11000.0
+
+Q31
+---
+[7500, 7000, 10000]
+
+Q32
+---
+[{'registration_id': 'R1001', 'event_id': 'E101', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 2, 'registration_date': '2026-07-01', 'status': 'Confirmed', 'amount': 5000}, {'registration_id': 'R1002', 'event_id': 'E102', 'attendee_name': 'Simran Kaur', 'city': 'Mumbai', 'tickets': 1, 'registration_date': '2026-07-02', 'status': 'Confirmed', 'amount': 3500}, {'registration_id': 'R1004', 'event_id': 'E103', 'attendee_name': 'Keerthi Rao', 'city': 'Bangalore', 'tickets': 2, 'registration_date': '2026-07-07', 'status': 'Confirmed', 'amount': 6000}, {'registration_id': 'R1006', 'event_id': 'E102', 'attendee_name': 'Ananya Das', 'city': 'Hyderabad', 'tickets': 2, 'registration_date': '2026-08-01', 'status': 'Confirmed', 'amount': 7000}, {'registration_id': 'R1008', 'event_id': 'E101', 'attendee_name': 'Sonal Mehta', 'city': 'Delhi', 'tickets': 4, 'registration_date': '2026-08-09', 'status': 'Confirmed', 'amount': 10000}, {'registration_id': 'R1009', 'event_id': 'E104', 'attendee_name': 'Harish Nair', 'city': 'Chennai', 'tickets': 2, 'registration_date': '2026-08-15', 'status': 'Confirmed', 'amount': 8000}, {'registration_id': 'R1010', 'event_id': 'E102', 'attendee_name': 'Nida Khan', 'city': 'Hyderabad', 'tickets': 3, 'registration_date': '2026-09-02', 'status': 'Confirmed', 'amount': 10500}, {'registration_id': 'R1012', 'event_id': 'E104', 'attendee_name': 'Maya Iyer', 'city': 'Bangalore', 'tickets': 1, 'registration_date': '2026-09-11', 'status': 'Confirmed', 'amount': 4000}]
+
+Q33
+---
+['Hyderabad', 'Mumbai', 'Pune', 'Bangalore', 'Delhi', 'Hyderabad', 'Mumbai', 'Delhi', 'Chennai', 'Hyderabad', 'Pune', 'Bangalore']
+
+Q34
+---
+{'Pune', 'Delhi', 'Mumbai', 'Hyderabad', 'Bangalore', 'Chennai'}
+
+Q35
+---
+[{'registration_id': 'R1007', 'event_id': 'E103', 'attendee_name': 'Zubin Patel', 'city': 'Mumbai', 'tickets': 1, 'registration_date': '2026-08-04', 'status': 'Pending', 'amount': 3000}, {'registration_id': 'R1002', 'event_id': 'E102', 'attendee_name': 'Simran Kaur', 'city': 'Mumbai', 'tickets': 1, 'registration_date': '2026-07-02', 'status': 'Confirmed', 'amount': 3500}, {'registration_id': 'R1005', 'event_id': 'E104', 'attendee_name': 'Mohit Kapoor', 'city': 'Delhi', 'tickets': 1, 'registration_date': '2026-07-10', 'status': 'Cancelled', 'amount': 4000}, {'registration_id': 'R1012', 'event_id': 'E104', 'attendee_name': 'Maya Iyer', 'city': 'Bangalore', 'tickets': 1, 'registration_date': '2026-09-11', 'status': 'Confirmed', 'amount': 4000}, {'registration_id': 'R1001', 'event_id': 'E101', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': 2, 'registration_date': '2026-07-01', 'status': 'Confirmed', 'amount': 5000}, {'registration_id': 'R1004', 'event_id': 'E103', 'attendee_name': 'Keerthi Rao', 'city': 'Bangalore', 'tickets': 2, 'registration_date': '2026-07-07', 'status': 'Confirmed', 'amount': 6000}, {'registration_id': 'R1011', 'event_id': 'E103', 'attendee_name': 'Rohit Bansal', 'city': 'Pune', 'tickets': 2, 'registration_date': '2026-09-05', 'status': 'Cancelled', 'amount': 6000}, {'registration_id': 'R1006', 'event_id': 'E102', 'attendee_name': 'Ananya Das', 'city': 'Hyderabad', 'tickets': 2, 'registration_date': '2026-08-01', 'status': 'Confirmed', 'amount': 7000}, {'registration_id': 'R1003', 'event_id': 'E101', 'attendee_name': 'Faiz Ahmed', 'city': 'Pune', 'tickets': 3, 'registration_date': '2026-07-04', 'status': 'Pending', 'amount': 7500}, {'registration_id': 'R1009', 'event_id': 'E104', 'attendee_name': 'Harish Nair', 'city': 'Chennai', 'tickets': 2, 'registration_date': '2026-08-15', 'status': 'Confirmed', 'amount': 8000}, {'registration_id': 'R1008', 'event_id': 'E101', 'attendee_name': 'Sonal Mehta', 'city': 'Delhi', 'tickets': 4, 'registration_date': '2026-08-09', 'status': 'Confirmed', 'amount': 10000}, {'registration_id': 'R1010', 'event_id': 'E102', 'attendee_name': 'Nida Khan', 'city': 'Hyderabad', 'tickets': 3, 'registration_date': '2026-09-02', 'status': 'Confirmed', 'amount': 10500}]
+
+Q36
+---
+E101 AI Innovation Summit 500 2500.0
+E102 Leadership Forum 350 3500.0
+
+Q37
+---
+Event E101: AI Innovation Summit, capacity 500, ticket price 2500.0
+Event E102: Leadership Forum, capacity 350, ticket price 3500.0
+
+Q38
+---
+22500.0
+21000.0
+
+Q39
+---
+Created events: AI Innovation Summit and Leadership Forum
+
+Q40
+---
+Platform: Zoom
+
+Q41
+---
+E103 Data Engineering Bootcamp 200 3000.0
+
+Q42
+---
+Event E103: Data Engineering Bootcamp, capacity 200, ticket price 3000.0
+Platform: Zoom
+
+Q43
+---
+Venue: Delhi
+
+Q44
+---
+Event E104: Startup Connect, capacity 300, ticket price 4000.0
+Venue: Delhi
+
+Q45
+---
+Objects in list: 2
+
+Q46
+---
+Event E103: Data Engineering Bootcamp, capacity 200, ticket price 3000.0
+Platform: Zoom
+Event E104: Startup Connect, capacity 300, ticket price 4000.0
+Venue: Delhi
+
+Q47
+---
+3 messages written to event_log.txt
+
+Q48
+---
+2 messages appended to event_log.txt
+
+Q49
+---
+Event registration started
+Registrations validated
+Tickets generated
+Confirmation emails sent
+Event report created
+
+
+Q50
+---
+'Event registration started\n'
+'Registrations validated\n'
+'Tickets generated\n'
+'Confirmation emails sent\n'
+'Event report created\n'
+
+Q51
+---
+Event registration started
+Registrations validated
+Tickets generated
+Confirmation emails sent
+Event report created
+
+Q52
+---
+Total lines: 5
+
+Q53
+---
+Columns read: ['registration_id', 'event_id', 'attendee_name', 'city', 'tickets', 'registration_date', 'status', 'amount']
+
+Q54
+---
+Records stored in list: 12
+
+Q55
+---
+{'registration_id': 'R1001', 'event_id': 'E101', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': '2', 'registration_date': '2026-07-01', 'status': 'Confirmed', 'amount': '5000'}
+{'registration_id': 'R1002', 'event_id': 'E102', 'attendee_name': 'Simran Kaur', 'city': 'Mumbai', 'tickets': '1', 'registration_date': '2026-07-02', 'status': 'Confirmed', 'amount': '3500'}
+{'registration_id': 'R1004', 'event_id': 'E103', 'attendee_name': 'Keerthi Rao', 'city': 'Bangalore', 'tickets': '2', 'registration_date': '2026-07-07', 'status': 'Confirmed', 'amount': '6000'}
+{'registration_id': 'R1006', 'event_id': 'E102', 'attendee_name': 'Ananya Das', 'city': 'Hyderabad', 'tickets': '2', 'registration_date': '2026-08-01', 'status': 'Confirmed', 'amount': '7000'}
+{'registration_id': 'R1008', 'event_id': 'E101', 'attendee_name': 'Sonal Mehta', 'city': 'Delhi', 'tickets': '4', 'registration_date': '2026-08-09', 'status': 'Confirmed', 'amount': '10000'}
+{'registration_id': 'R1009', 'event_id': 'E104', 'attendee_name': 'Harish Nair', 'city': 'Chennai', 'tickets': '2', 'registration_date': '2026-08-15', 'status': 'Confirmed', 'amount': '8000'}
+{'registration_id': 'R1010', 'event_id': 'E102', 'attendee_name': 'Nida Khan', 'city': 'Hyderabad', 'tickets': '3', 'registration_date': '2026-09-02', 'status': 'Confirmed', 'amount': '10500'}
+{'registration_id': 'R1012', 'event_id': 'E104', 'attendee_name': 'Maya Iyer', 'city': 'Bangalore', 'tickets': '1', 'registration_date': '2026-09-11', 'status': 'Confirmed', 'amount': '4000'}
+
+Q56
+---
+{'registration_id': 'R1001', 'event_id': 'E101', 'attendee_name': 'Aarav Shah', 'city': 'Hyderabad', 'tickets': '2', 'registration_date': '2026-07-01', 'status': 'Confirmed', 'amount': '5000'}
+{'registration_id': 'R1006', 'event_id': 'E102', 'attendee_name': 'Ananya Das', 'city': 'Hyderabad', 'tickets': '2', 'registration_date': '2026-08-01', 'status': 'Confirmed', 'amount': '7000'}
+{'registration_id': 'R1010', 'event_id': 'E102', 'attendee_name': 'Nida Khan', 'city': 'Hyderabad', 'tickets': '3', 'registration_date': '2026-09-02', 'status': 'Confirmed', 'amount': '10500'}
+
+Q57
+---
+5000 <class 'int'>
+
+Q58
+---
+{'registration_id': 'R1003', 'event_id': 'E101', 'attendee_name': 'Faiz Ahmed', 'city': 'Pune', 'tickets': '3', 'registration_date': '2026-07-04', 'status': 'Pending', 'amount': 7500}
+{'registration_id': 'R1008', 'event_id': 'E101', 'attendee_name': 'Sonal Mehta', 'city': 'Delhi', 'tickets': '4', 'registration_date': '2026-08-09', 'status': 'Confirmed', 'amount': 10000}
+{'registration_id': 'R1009', 'event_id': 'E104', 'attendee_name': 'Harish Nair', 'city': 'Chennai', 'tickets': '2', 'registration_date': '2026-08-15', 'status': 'Confirmed', 'amount': 8000}
+{'registration_id': 'R1010', 'event_id': 'E102', 'attendee_name': 'Nida Khan', 'city': 'Hyderabad', 'tickets': '3', 'registration_date': '2026-09-02', 'status': 'Confirmed', 'amount': 10500}
+
+Q59
+---
+Total registration amount: 74500
+
+Q60
+---
+{'Pune', 'Delhi', 'Mumbai', 'Hyderabad', 'Bangalore', 'Chennai'}
+
+Q61
+---
+staff.json read, records loaded: 4
+
+Q62
+---
+<class 'list'>
+
+Q63
+---
+Arvind Rao
+Sanya Gupta
+Bilal Ahmed
+Trisha Menon
+
+Q64
+---
+Arvind Rao
+Trisha Menon
+
+Q65
+---
+Bilal Ahmed 90000
+Trisha Menon 76000
+
+Q66
+---
+Arvind Rao
+Bilal Ahmed
+
+Q67
+---
+Arvind Rao 4.3 8
+Sanya Gupta 4.6 10
+Bilal Ahmed 4.8 12
+Trisha Menon 4.1 7
+
+Q68
+---
+Sanya Gupta 4.6
+Bilal Ahmed 4.8
+
+Q69
+---
+['Coordination', 'Excel', 'Python', 'Digital Marketing', 'Analytics', 'Python', 'SQL', 'Automation', 'Coordination', 'Vendor Management']
+
+Q70
+---
+{'Analytics', 'Automation', 'Coordination', 'SQL', 'Digital Marketing', 'Python', 'Vendor Management', 'Excel'}
+
+Q71
+---
+Bilal Ahmed 90000
+Trisha Menon 76000
+Arvind Rao 72000
+Sanya Gupta 68000
+
+Q72
+---
+Bilal Ahmed 4.8
+Sanya Gupta 4.6
+Arvind Rao 4.3
+Trisha Menon 4.1
+
+Q73
+---
+[{'staff_id': 501, 'name': 'Arvind Rao', 'department': 'Operations', 'salary': 72000, 'skills': ['Coordination', 'Excel', 'Python'], 'performance': {'rating': 4.3, 'events_handled': 8}}, {'staff_id': 502, 'name': 'Sanya Gupta', 'department': 'Marketing', 'salary': 68000, 'skills': ['Digital Marketing', 'Analytics'], 'performance': {'rating': 4.6, 'events_handled': 10}}, {'staff_id': 503, 'name': 'Bilal Ahmed', 'department': 'Technology', 'salary': 90000, 'skills': ['Python', 'SQL', 'Automation', 'Pandas'], 'performance': {'rating': 4.8, 'events_handled': 12}}, {'staff_id': 504, 'name': 'Trisha Menon', 'department': 'Operations', 'salary': 76000, 'skills': ['Coordination', 'Vendor Management'], 'performance': {'rating': 4.1, 'events_handled': 7}}]
+
+Q74
+---
+staff_updated.json saved
+
+Q75
+---
+event_utils.py has: calculate_booking_amount, calculate_discount, check_event_capacity
+
+Q76
+---
+Module imported: event_utils
+
+Q77
+---
+10000.0
+1000.0
+Seats Available
+
+Q78
+---
+250.0
+
+Q79
+---
+Full
+
+Q80
+---
+registrations.csv loaded, rows: 12
+
+Q81
+---
+  registration_id event_id attendee_name       city  tickets registration_date     status  amount
+0           R1001     E101    Aarav Shah  Hyderabad        2        2026-07-01  Confirmed    5000
+1           R1002     E102   Simran Kaur     Mumbai        1        2026-07-02  Confirmed    3500
+2           R1003     E101    Faiz Ahmed       Pune        3        2026-07-04    Pending    7500
+3           R1004     E103   Keerthi Rao  Bangalore        2        2026-07-07  Confirmed    6000
+4           R1005     E104  Mohit Kapoor      Delhi        1        2026-07-10  Cancelled    4000
+   registration_id event_id attendee_name       city  tickets registration_date     status  amount
+7            R1008     E101   Sonal Mehta      Delhi        4        2026-08-09  Confirmed   10000
+8            R1009     E104   Harish Nair    Chennai        2        2026-08-15  Confirmed    8000
+9            R1010     E102     Nida Khan  Hyderabad        3        2026-09-02  Confirmed   10500
+10           R1011     E103  Rohit Bansal       Pune        2        2026-09-05  Cancelled    6000
+11           R1012     E104     Maya Iyer  Bangalore        1        2026-09-11  Confirmed    4000
+(12, 8)
+Index(['registration_id', 'event_id', 'attendee_name', 'city', 'tickets', 'registration_date', 'status', 'amount'], dtype='str')
+registration_id        str
+event_id               str
+attendee_name          str
+city                   str
+tickets              int64
+registration_date      str
+status                 str
+amount               int64
+dtype: object
+
+Q82
+---
+   attendee_name       city     status  amount
+0     Aarav Shah  Hyderabad  Confirmed    5000
+1    Simran Kaur     Mumbai  Confirmed    3500
+2     Faiz Ahmed       Pune    Pending    7500
+3    Keerthi Rao  Bangalore  Confirmed    6000
+4   Mohit Kapoor      Delhi  Cancelled    4000
+5     Ananya Das  Hyderabad  Confirmed    7000
+6    Zubin Patel     Mumbai    Pending    3000
+7    Sonal Mehta      Delhi  Confirmed   10000
+8    Harish Nair    Chennai  Confirmed    8000
+9      Nida Khan  Hyderabad  Confirmed   10500
+10  Rohit Bansal       Pune  Cancelled    6000
+11     Maya Iyer  Bangalore  Confirmed    4000
+
+Q83
+---
+   registration_id event_id attendee_name       city  tickets registration_date     status  amount
+0            R1001     E101    Aarav Shah  Hyderabad        2        2026-07-01  Confirmed    5000
+1            R1002     E102   Simran Kaur     Mumbai        1        2026-07-02  Confirmed    3500
+3            R1004     E103   Keerthi Rao  Bangalore        2        2026-07-07  Confirmed    6000
+5            R1006     E102    Ananya Das  Hyderabad        2        2026-08-01  Confirmed    7000
+7            R1008     E101   Sonal Mehta      Delhi        4        2026-08-09  Confirmed   10000
+8            R1009     E104   Harish Nair    Chennai        2        2026-08-15  Confirmed    8000
+9            R1010     E102     Nida Khan  Hyderabad        3        2026-09-02  Confirmed   10500
+11           R1012     E104     Maya Iyer  Bangalore        1        2026-09-11  Confirmed    4000
+
+Q84
+---
+  registration_id event_id attendee_name       city  tickets registration_date     status  amount
+2           R1003     E101    Faiz Ahmed       Pune        3        2026-07-04    Pending    7500
+5           R1006     E102    Ananya Das  Hyderabad        2        2026-08-01  Confirmed    7000
+7           R1008     E101   Sonal Mehta      Delhi        4        2026-08-09  Confirmed   10000
+8           R1009     E104   Harish Nair    Chennai        2        2026-08-15  Confirmed    8000
+9           R1010     E102     Nida Khan  Hyderabad        3        2026-09-02  Confirmed   10500
+
+Q85
+---
+  registration_id event_id attendee_name       city  tickets registration_date     status  amount
+0           R1001     E101    Aarav Shah  Hyderabad        2        2026-07-01  Confirmed    5000
+5           R1006     E102    Ananya Das  Hyderabad        2        2026-08-01  Confirmed    7000
+9           R1010     E102     Nida Khan  Hyderabad        3        2026-09-02  Confirmed   10500
+
+Q86
+---
+status
+Confirmed    8
+Pending      2
+Cancelled    2
+Name: count, dtype: int64
+
+Q87
+---
+status
+Cancelled    10000
+Confirmed    54000
+Pending      10500
+Name: amount, dtype: int64
+
+Q88
+---
+city
+Bangalore    5000.0
+Chennai      8000.0
+Delhi        7000.0
+Hyderabad    7500.0
+Mumbai       3250.0
+Pune         6750.0
+Name: amount, dtype: float64
