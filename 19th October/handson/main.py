@@ -22,35 +22,35 @@ employees=[
   },
   {
     "id": 102,
-    "name": "Priya Patel",
+    "name": "Priya Nair",
     "department": "Finance",
-    "designation": "Financial Analyst",
+    "designation": "Accountant",
     "salary": 72000,
-    "city": "Mumbai"
+    "city": "Chennai"
   },
   {
     "id": 103,
-    "name": "Amit Verma",
-    "department": "HR",
-    "designation": "HR Manager",
-    "salary": 80000,
-    "city": "Delhi"
+    "name": "Arjun Mehta",
+    "department": "Marketing",
+    "designation": "Marketing Executive",
+    "salary": 58000,
+    "city": "Mumbai"
   },
   {
     "id": 104,
     "name": "Sneha Reddy",
-    "department": "Marketing",
-    "designation": "Marketing Specialist",
-    "salary": 58000,
+    "department": "HR",
+    "designation": "HR Manager",
+    "salary": 54000,
     "city": "Bengaluru"
   },
   {
     "id": 105,
-    "name": "Vikram Singh",
-    "department": "IT",
-    "designation": "DevOps Engineer",
-    "salary": 85000,
-    "city": "Pune"
+    "name": "Karthik Iyer",
+    "department": "Sales",
+    "designation": "Sales Lead",
+    "salary": 61000,
+    "city": "Coimbatore"
   }
 ]
 
