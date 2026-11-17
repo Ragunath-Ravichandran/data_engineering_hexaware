@@ -1,0 +1,5 @@
+department,total_records,avg_work_hours,avg_productivity,avg_completion_pct,late_login_count,absent_count,absent_rate_pct,late_rate_pct
+Engineering,100,7.76,0.63,79.9,19,16,16.0,19.0
+HR,60,7.61,0.65,78.63,15,9,15.0,25.0
+Finance,120,7.79,0.6,77.31,26,8,6.67,21.67
+Sales,120,7.76,0.59,74.73,30,7,5.83,25.0
