@@ -1,0 +1,11 @@
+product_id,product_name,category,total_units_sold,total_revenue,total_profit,total_orders,returned_orders,profit_margin_pct,return_rate_pct
+6,Backpack,Accessories,1805,2185307.7,921807.7,302,27,42.18,8.94
+8,Notebook Pack,Stationery,1673,389622.75,205592.75,262,20,52.77,7.63
+5,Water Bottle,Home,1733,566060.55,306110.55,289,14,54.08,4.84
+7,Desk Lamp,Home,1653,1384235.25,557735.25,275,15,40.29,5.45
+10,Yoga Mat,Fitness,1643,1683503.15,697703.15,280,18,41.44,6.43
+2,Bluetooth Speaker,Electronics,1835,4305152.25,1369152.25,301,17,31.8,5.65
+4,Running Shoes,Footwear,1917,5893663.5,1867963.5,320,18,31.69,5.63
+3,Cotton T-Shirt,Apparel,2114,985225.6,520145.6,337,24,52.79,7.12
+1,Wireless Mouse,Electronics,1898,1421141.35,567041.35,311,19,39.9,6.11
+9,Headphones,Electronics,1902,3547725.25,1265325.25,318,19,35.67,5.97

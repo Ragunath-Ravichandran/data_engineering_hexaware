@@ -1,0 +1,16 @@
+store_id,store_name,region,month,monthly_revenue,monthly_profit
+1,Anna Nagar,South,2025-01,1930508.6,712328.6
+1,Anna Nagar,South,2025-02,1650611.5,606781.5
+1,Anna Nagar,South,2025-03,1787623.2,680043.2
+2,T Nagar,South,2025-01,1938204.05,707894.05
+2,T Nagar,South,2025-02,1834270.35,667000.35
+2,T Nagar,South,2025-03,2185660.4,802020.4
+3,Whitefield,South,2025-01,1432767.2,519247.2
+3,Whitefield,South,2025-02,1216624.3,463294.3
+3,Whitefield,South,2025-03,1542551.65,591481.65
+4,Andheri,West,2025-01,1625451.4,585981.4
+4,Andheri,West,2025-02,1263767.7,484187.7
+4,Andheri,West,2025-03,1634387.85,608907.85
+5,Banjara Hills,South,2025-01,771043.95,281383.95
+5,Banjara Hills,South,2025-02,687973.65,256433.65
+5,Banjara Hills,South,2025-03,860191.55,311591.55
