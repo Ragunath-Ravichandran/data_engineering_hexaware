@@ -8,6 +8,11 @@ on:
 permissions:
   contents: read
 
+env:
+  # CHANGE THIS to the folder that contains weekly_attendance_report.py and the csv files
+  # (path from the repository root, spaces are fine)
+  PROJECT_DIR: "Capstone_Project1/week 5_devops/Capstone_Project1"
+
 jobs:
   weekly-report:
     runs-on: ubuntu-latest
@@ -21,17 +26,17 @@ jobs:
           python-version: "3.11"
 
       - name: Install packages
-        run: pip install -r requirements.txt
+        run: pip install pandas numpy
 
       - name: Run attendance analysis
-        working-directory: Capstone_Project1
+        working-directory: ${{ env.PROJECT_DIR }}
         run: python weekly_attendance_report.py
 
       - name: Show summary on the run page
-        run: cat Capstone_Project1/output/summary.md >> "$GITHUB_STEP_SUMMARY"
+        run: cat "$PROJECT_DIR/output/summary.md" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload report files
         uses: actions/upload-artifact@v4
         with:
           name: attendance-weekly-report
-          path: Capstone_Project1/output/
+          path: ${{ env.PROJECT_DIR }}/output/
