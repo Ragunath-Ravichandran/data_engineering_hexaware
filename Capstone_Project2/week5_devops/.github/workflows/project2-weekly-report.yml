@@ -11,8 +11,7 @@ permissions:
 env:
   # CHANGE THIS to the folder that contains weekly_sales_report.py and the csv files
   # (path from the repository root, spaces are fine)
-  PROJECT_DIR: "Capstone_Project2/week5_devops/Capstone_Project2"
-
+  PROJECT_DIR: "Capstone_Project2/week5_devops/workflow_python"
 
 jobs:
   weekly-report:

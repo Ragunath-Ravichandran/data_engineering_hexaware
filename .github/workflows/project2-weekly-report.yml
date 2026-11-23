@@ -1,0 +1,42 @@
+name: Project 2 - Weekly Sales Report
+
+on:
+  schedule:
+    - cron: "30 3 * * 1"     # every Monday 03:30 UTC = 09:00 IST
+  workflow_dispatch:          # adds a "Run workflow" button for manual runs
+
+permissions:
+  contents: read
+
+env:
+  # CHANGE THIS to the folder that contains weekly_sales_report.py and the csv files
+  # (path from the repository root, spaces are fine)
+  PROJECT_DIR: "Capstone_Project2/week5_devops/workflow_python"
+
+jobs:
+  weekly-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install packages
+        run: pip install pandas numpy
+
+      - name: Run sales analysis
+        working-directory: ${{ env.PROJECT_DIR }}
+        run: python weekly_sales_report.py
+
+      - name: Show summary on the run page
+        run: cat "$PROJECT_DIR/output/summary.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report files
+        uses: actions/upload-artifact@v4
+        with:
+          name: sales-weekly-report
+          path: ${{ env.PROJECT_DIR }}/output/
