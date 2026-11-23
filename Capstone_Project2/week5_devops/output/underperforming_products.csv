@@ -1,0 +1,7 @@
+product_id,product_name,total_units_sold,total_revenue,total_orders,returned_orders,return_rate_pct,reason
+10,Yoga Mat,1643,1683503.15,280,18,6.43,low sales
+7,Desk Lamp,1653,1384235.25,275,15,5.45,low sales
+8,Notebook Pack,1673,389622.75,262,20,7.63,low sales and high returns
+5,Water Bottle,1733,566060.55,289,14,4.84,low sales
+6,Backpack,1805,2185307.7,302,27,8.94,low sales and high returns
+3,Cotton T-Shirt,2114,985225.6,337,24,7.12,high returns
